@@ -1,7 +1,13 @@
 # [3751] Total Waviness of Numbers in Range I
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-06-04  
+**Runtime:** 328 ms (40.0%)  
+**Memory:** 19.3 MB (40.0%)  
 
+---
+
+### Description
 You are given two integers num1 and num2 representing an inclusive range [num1, num2].
 
 The waviness of a number is defined as the total count of its peaks and valleys:

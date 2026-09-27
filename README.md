@@ -1,15 +1,39 @@
 <div align="center">
 
-# 💻 LeetCode Solutions
+# 💻 LeetCode Solutions & Analytics
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/Matteoroda/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/matteoroda05)
 
 Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 ---
 
-### 📊 Progress Overview
+## 📊 LeetCode Stats
+
+<div align="center">
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Matteoroda?theme=dark&font=Nunito&ext=heatmap)](https://leetcode.com/u/Matteoroda/)
+
+</div>
+
+---
+
+## 🛠️ Languages Used
+
+<div align="center">
+
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22C%22%2C%20%22Python3%22%2C%20%22C%2B%2B%22%2C%20%22Python%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B2%2C%2036%2C%201%2C%204%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2243%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
+
+<br/>
+
+`Python3: 36 (83.7%)` `Python: 4 (9.3%)` `C: 2 (4.7%)` `C++: 1 (2.3%)`
+
+</div>
+
+---
+
+### 📈 Local Progress Breakdown
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏆 Total Solved |
 | :---: | :---: | :---: | :---: |
@@ -70,5 +94,5 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 ---
 
 <div align="center">
-<sub>Automatically synced and updated via GitHub Actions.</sub>
+<sub>Automatically synced and updated via custom GitHub Actions engine.</sub>
 </div>

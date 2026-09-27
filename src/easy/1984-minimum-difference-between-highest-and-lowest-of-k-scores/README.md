@@ -1,7 +1,13 @@
 # [1984] Minimum Difference Between Highest and Lowest of K Scores
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-01-26  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 17.1 MB (90.8%)  
 
+---
+
+### Description
 You are given a 0-indexed integer array nums, where nums[i] represents the score of the ith student. You are also given an integer k.
 
 Pick the scores of any k students from the array so that the difference between the highest and the lowest of the k scores is minimized.

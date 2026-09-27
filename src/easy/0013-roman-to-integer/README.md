@@ -1,7 +1,13 @@
 # [0013] Roman to Integer
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-03-10  
+**Runtime:** 5 ms (82.0%)  
+**Memory:** 12.5 MB (22.4%)  
 
+---
+
+### Description
 Roman numerals are represented by seven different symbols:&nbsp;I, V, X, L, C, D and M.
 
 

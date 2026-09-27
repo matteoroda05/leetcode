@@ -1,7 +1,13 @@
 # [1200] Minimum Absolute Difference
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-01-26  
+**Runtime:** 63 ms (91.5%)  
+**Memory:** 21.6 MB (44.9%)  
 
+---
+
+### Description
 Given an array of distinct integers arr, find all pairs of elements with the minimum absolute difference of any two elements.
 
 Return a list of pairs in ascending order(with respect to pairs), each pair [a, b] follows

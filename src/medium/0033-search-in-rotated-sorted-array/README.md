@@ -1,7 +1,13 @@
 # [0033] Search in Rotated Sorted Array
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-09-25  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 19.8 MB (11.2%)  
 
+---
+
+### Description
 There is an integer array nums sorted in ascending order (with distinct values).
 
 Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 &lt;= k &lt; nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by&nbsp;3&nbsp;indices and become [4,5,6,7,0,1,2].

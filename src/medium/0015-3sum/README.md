@@ -1,7 +1,13 @@
 # [0015] 3Sum
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-08-16  
+**Runtime:** 1026 ms (15.6%)  
+**Memory:** 24.4 MB (5.3%)  
 
+---
+
+### Description
 Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
 
 Notice that the solution set must not contain duplicate triplets.

@@ -10,6 +10,7 @@ import urllib.parse
 
 LEETCODE_SESSION = os.environ.get("LEETCODE_SESSION")
 CSRF_TOKEN = os.environ.get("LEETCODE_CSRF_TOKEN")
+OVERWRITE = os.environ.get("OVERWRITE_EXISTING", "false").lower() in ("true", "1", "yes")
 
 GRAPHQL_URL = "https://leetcode.com/graphql"
 HEADERS = {
@@ -118,7 +119,6 @@ def update_readme(problems_data):
 
     total = stats["easy"] + stats["medium"] + stats["hard"]
 
-    # Generate QuickChart dynamic doughnut chart URL
     if lang_counter:
         labels = list(lang_counter.keys())
         data_values = list(lang_counter.values())
@@ -154,7 +154,6 @@ def update_readme(problems_data):
         for lang, count in lang_counter.most_common()
     ]) if total > 0 else "N/A"
 
-    # Build the table rows with the Date Solved column
     table_rows = []
     for p in sorted(problems_data, key=lambda x: int(x["qid"])):
         qid = p["qid"]
@@ -265,11 +264,9 @@ def main():
         lang = sub["lang"]
         ext = EXTENSIONS.get(lang, "txt")
 
-        # Format submission timestamp into YYYY-MM-DD
         sub_time = int(sub["timestamp"])
         formatted_date = datetime.fromtimestamp(sub_time).strftime("%Y-%m-%d")
 
-        # Percentile metrics
         r_disp = details.get("runtimeDisplay") or f"{details.get('runtime', 0)}ms"
         r_pct = f"{round(details.get('runtimePercentile') or 0, 1)}%"
         m_disp = details.get("memoryDisplay") or f"{round((details.get('memory') or 0) / (1024*1024), 1)}MB"
@@ -296,13 +293,12 @@ def main():
         solution_path = os.path.join(target_dir, f"solution.{ext}")
         problem_desc_path = os.path.join(target_dir, "README.md")
 
-        if not os.path.exists(solution_path):
+        # Process if file does not exist, or if OVERWRITE toggle is enabled
+        if not os.path.exists(solution_path) or OVERWRITE:
             with open(solution_path, "w", encoding="utf-8") as f:
                 f.write(code)
 
             clean_html = re.sub(r'<[^>]+>', '', q.get("content", "") or "")
-            
-            # Single problem README content with Date Solved & Benchmarks
             problem_readme = f"""# [{qid}] {title}
 
 **Difficulty:** {difficulty}  
@@ -318,11 +314,12 @@ def main():
             with open(problem_desc_path, "w", encoding="utf-8") as f:
                 f.write(problem_readme)
 
-            # Single commit message with Date included
-            commit_msg = f"LeetCode Sync: {qid} | {title} | {formatted_date} | Time: {r_disp} ({r_pct}) | Memory: {m_disp} ({m_pct})"
             subprocess.run(["git", "add", target_dir], check=True)
-            subprocess.run(["git", "commit", "-m", commit_msg], check=True)
-            time.sleep(0.3)
+            diff_check = subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode
+            if diff_check != 0:
+                commit_msg = f"LeetCode Sync: {qid} | {title} | {formatted_date} | Time: {r_disp} ({r_pct}) | Memory: {m_disp} ({m_pct})"
+                subprocess.run(["git", "commit", "-m", commit_msg], check=True)
+                time.sleep(0.3)
 
     update_readme(problems_metadata)
     diff = subprocess.run(["git", "diff", "--quiet", "README.md"]).returncode

@@ -1,9 +1,17 @@
 # [0004] Median of Two Sorted Arrays
 
-**Difficulty:** Hard  
-**Date Solved:** 2025-11-03  
-**Runtime:** 0 ms (100.0%)  
-**Memory:** 11.2 MB (100.0%)  
+- **Difficulty:** Hard
+- **Latest accepted:** 2025-11-03 11:42 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2025-11-03 11:42 UTC | C | 0 ms (100.0%) | 11.2 MB (100.0%) | [Code](solution-v1.c) |
 
 ---
 

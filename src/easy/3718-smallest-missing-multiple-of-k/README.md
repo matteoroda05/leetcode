@@ -1,9 +1,17 @@
 # [3718] Smallest Missing Multiple of K
 
-**Difficulty:** Easy  
-**Date Solved:** 2026-08-25  
-**Runtime:** 0 ms (100.0%)  
-**Memory:** 19.2 MB (90.5%)  
+- **Difficulty:** Easy
+- **Latest accepted:** 2026-08-25 06:44 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-08-25 06:44 UTC | Python3 | 0 ms (100.0%) | 19.2 MB (90.5%) | [Code](solution-v1.py) |
 
 ---
 

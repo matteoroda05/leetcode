@@ -1,9 +1,17 @@
 # [0877] Stone Game
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-08-24  
-**Runtime:** 0 ms (100.0%)  
-**Memory:** 19.2 MB (68.4%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-08-24 19:27 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-08-24 19:27 UTC | Python3 | 0 ms (100.0%) | 19.2 MB (68.4%) | [Code](solution-v1.py) |
 
 ---
 

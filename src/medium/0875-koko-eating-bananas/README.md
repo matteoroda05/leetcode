@@ -1,9 +1,17 @@
 # [0875] Koko Eating Bananas
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-08-15  
-**Runtime:** 255 ms (5.0%)  
-**Memory:** 20.8 MB (13.8%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-08-15 11:30 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-08-15 11:30 UTC | Python3 | 255 ms (5.1%) | 20.8 MB (13.7%) | [Code](solution-v1.py) |
 
 ---
 

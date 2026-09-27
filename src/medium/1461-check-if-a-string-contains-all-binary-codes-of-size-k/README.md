@@ -1,9 +1,17 @@
 # [1461] Check If a String Contains All Binary Codes of Size K
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-02-23  
-**Runtime:** 229 ms (91.4%)  
-**Memory:** 63.2 MB (65.5%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-02-23 12:44 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-02-23 12:44 UTC | Python | 229 ms (94.6%) | 63.2 MB (67.9%) | [Code](solution-v1.py) |
 
 ---
 

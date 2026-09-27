@@ -1,9 +1,17 @@
 # [2840] Check if Strings Can be Made Equal With Operations II
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-08-25  
-**Runtime:** 48 ms (92.1%)  
-**Memory:** 20.1 MB (79.1%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-08-25 12:00 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-08-25 12:00 UTC | Python3 | 48 ms (92.1%) | 20.1 MB (78.7%) | [Code](solution-v1.py) |
 
 ---
 

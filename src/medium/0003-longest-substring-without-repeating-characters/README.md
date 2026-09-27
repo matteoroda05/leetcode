@@ -1,9 +1,17 @@
 # [0003] Longest Substring Without Repeating Characters
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-08-15  
-**Runtime:** 155 ms (94.3%)  
-**Memory:** 20 MB (36.3%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-08-15 14:05 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-08-15 14:05 UTC | Python3 | 155 ms (95.9%) | 20 MB (37.0%) | [Code](solution-v1.py) |
 
 ---
 

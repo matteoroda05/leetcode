@@ -1,9 +1,17 @@
 # [1488] Avoid Flood in The City
 
-**Difficulty:** Medium  
-**Date Solved:** 2025-11-03  
-**Runtime:** 160 ms (90.8%)  
-**Memory:** 35.1 MB (47.7%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2025-11-03 07:45 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2025-11-03 07:45 UTC | Python3 | 160 ms (92.0%) | 35.1 MB (48.7%) | [Code](solution-v1.py) |
 
 ---
 

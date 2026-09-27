@@ -1,9 +1,17 @@
 # [3121] Count the Number of Special Characters II
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-05-27  
-**Runtime:** 492 ms (8.9%)  
-**Memory:** 21.7 MB (10.8%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-05-27 17:31 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-05-27 17:31 UTC | Python3 | 492 ms (8.9%) | 21.7 MB (10.7%) | [Code](solution-v1.py) |
 
 ---
 

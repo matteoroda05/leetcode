@@ -1,9 +1,17 @@
 # [0122] Best Time to Buy and Sell Stock II
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-09-24  
-**Runtime:** 3 ms (60.3%)  
-**Memory:** 20.1 MB (97.9%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-09-24 10:42 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-09-24 10:42 UTC | Python3 | 3 ms (60.4%) | 20.1 MB (98.0%) | [Code](solution-v1.py) |
 
 ---
 

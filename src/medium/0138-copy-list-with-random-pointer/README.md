@@ -1,9 +1,17 @@
 # [0138] Copy List with Random Pointer
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-09-24  
-**Runtime:** 49 ms (46.9%)  
-**Memory:** 19.9 MB (98.5%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-09-24 14:55 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-09-24 14:55 UTC | Python3 | 49 ms (46.8%) | 19.9 MB (98.5%) | [Code](solution-v1.py) |
 
 ---
 

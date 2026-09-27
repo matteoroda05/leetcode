@@ -1,9 +1,17 @@
 # [3300] Minimum Element After Replacement With Digit Sum
 
-**Difficulty:** Easy  
-**Date Solved:** 2026-05-29  
-**Runtime:** 6 ms (32.9%)  
-**Memory:** 19.1 MB (91.3%)  
+- **Difficulty:** Easy
+- **Latest accepted:** 2026-05-29 15:01 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-05-29 15:01 UTC | Python3 | 6 ms (32.9%) | 19.1 MB (91.5%) | [Code](solution-v1.py) |
 
 ---
 

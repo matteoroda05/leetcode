@@ -1,9 +1,17 @@
 # [0026] Remove Duplicates from Sorted Array
 
-**Difficulty:** Easy  
-**Date Solved:** 2026-09-25  
-**Runtime:** 1 ms (57.1%)  
-**Memory:** 20.5 MB (80.1%)  
+- **Difficulty:** Easy
+- **Latest accepted:** 2026-09-25 19:16 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-09-25 19:16 UTC | Python3 | 1 ms (57.1%) | 20.5 MB (80.1%) | [Code](solution-v1.py) |
 
 ---
 

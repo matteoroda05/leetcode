@@ -1,9 +1,17 @@
 # [0123] Best Time to Buy and Sell Stock III
 
-**Difficulty:** Hard  
-**Date Solved:** 2026-09-24  
-**Runtime:** 120 ms (52.3%)  
-**Memory:** 31.2 MB (41.8%)  
+- **Difficulty:** Hard
+- **Latest accepted:** 2026-09-24 14:05 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-09-24 14:05 UTC | Python3 | 120 ms (52.3%) | 31.2 MB (41.8%) | [Code](solution-v1.py) |
 
 ---
 

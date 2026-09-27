@@ -1,9 +1,17 @@
 # [0207] Course Schedule
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-09-26  
-**Runtime:** 7 ms (44.3%)  
-**Memory:** 21.3 MB (25.9%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-09-26 21:41 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-09-26 21:41 UTC | Python3 | 7 ms (44.3%) | 21.3 MB (25.9%) | [Code](solution-v1.py) |
 
 ---
 

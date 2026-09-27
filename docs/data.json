@@ -6,559 +6,1316 @@
       "title": "Two Sum",
       "slug": "two-sum",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2109100593",
+          "timestamp": 1786891194,
+          "date": "2026-08-16 14:39 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "20.9 MB",
+          "memory_pct": "7.6%",
+          "path": "src/easy/0001-two-sum/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "20.9 MB",
       "memory_pct": "7.6%",
-      "date": "2026-08-16"
+      "date": "2026-08-16 14:39 UTC",
+      "timestamp": 1786891194
     },
     {
       "qid": "0003",
       "title": "Longest Substring Without Repeating Characters",
       "slug": "longest-substring-without-repeating-characters",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2107729604",
+          "timestamp": 1786802748,
+          "date": "2026-08-15 14:05 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "155 ms",
+          "runtime_pct": "95.9%",
+          "memory": "20 MB",
+          "memory_pct": "37.0%",
+          "path": "src/medium/0003-longest-substring-without-repeating-characters/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "155 ms",
-      "runtime_pct": "94.3%",
+      "runtime_pct": "95.9%",
       "memory": "20 MB",
-      "memory_pct": "36.3%",
-      "date": "2026-08-15"
+      "memory_pct": "37.0%",
+      "date": "2026-08-15 14:05 UTC",
+      "timestamp": 1786802748
     },
     {
       "qid": "0004",
       "title": "Median of Two Sorted Arrays",
       "slug": "median-of-two-sorted-arrays",
       "difficulty": "Hard",
-      "lang": "C",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "1819493878",
+          "timestamp": 1762170145,
+          "date": "2025-11-03 11:42 UTC",
+          "lang": "c",
+          "ext": "c",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "11.2 MB",
+          "memory_pct": "100.0%",
+          "path": "src/hard/0004-median-of-two-sorted-arrays/solution-v1.c"
+        }
+      ],
+      "lang": "c",
       "ext": "c",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "11.2 MB",
       "memory_pct": "100.0%",
-      "date": "2025-11-03"
+      "date": "2025-11-03 11:42 UTC",
+      "timestamp": 1762170145
     },
     {
       "qid": "0011",
       "title": "Container With Most Water",
       "slug": "container-with-most-water",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 1,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2109086506",
+          "timestamp": 1786890428,
+          "date": "2026-08-16 14:27 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "53 ms",
+          "runtime_pct": "77.1%",
+          "memory": "29.3 MB",
+          "memory_pct": "97.9%",
+          "path": "src/medium/0011-container-with-most-water/solution-v1.py"
+        },
+        {
+          "version": 2,
+          "submission_id": "2153376967",
+          "timestamp": 1790371641,
+          "date": "2026-09-25 21:27 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "44 ms",
+          "runtime_pct": "94.1%",
+          "memory": "29.7 MB",
+          "memory_pct": "15.3%",
+          "path": "src/medium/0011-container-with-most-water/solution-v2.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "44 ms",
-      "runtime_pct": "94.2%",
+      "runtime_pct": "94.1%",
       "memory": "29.7 MB",
       "memory_pct": "15.3%",
-      "date": "2026-09-25"
+      "date": "2026-09-25 21:27 UTC",
+      "timestamp": 1790371641
     },
     {
       "qid": "0013",
       "title": "Roman to Integer",
       "slug": "roman-to-integer",
       "difficulty": "Easy",
-      "lang": "Python",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "1944395256",
+          "timestamp": 1773180733,
+          "date": "2026-03-10 22:12 UTC",
+          "lang": "python",
+          "ext": "py",
+          "runtime": "5 ms",
+          "runtime_pct": "82.0%",
+          "memory": "12.5 MB",
+          "memory_pct": "22.3%",
+          "path": "src/easy/0013-roman-to-integer/solution-v1.py"
+        }
+      ],
+      "lang": "python",
       "ext": "py",
       "runtime": "5 ms",
       "runtime_pct": "82.0%",
       "memory": "12.5 MB",
-      "memory_pct": "22.4%",
-      "date": "2026-03-10"
+      "memory_pct": "22.3%",
+      "date": "2026-03-10 22:12 UTC",
+      "timestamp": 1773180733
     },
     {
       "qid": "0015",
       "title": "3Sum",
       "slug": "3sum",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2109273465",
+          "timestamp": 1786900485,
+          "date": "2026-08-16 17:14 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "1026 ms",
+          "runtime_pct": "15.7%",
+          "memory": "24.4 MB",
+          "memory_pct": "5.3%",
+          "path": "src/medium/0015-3sum/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "1026 ms",
-      "runtime_pct": "15.6%",
+      "runtime_pct": "15.7%",
       "memory": "24.4 MB",
       "memory_pct": "5.3%",
-      "date": "2026-08-16"
+      "date": "2026-08-16 17:14 UTC",
+      "timestamp": 1786900485
     },
     {
       "qid": "0020",
       "title": "Valid Parentheses",
       "slug": "valid-parentheses",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2153381049",
+          "timestamp": 1790372421,
+          "date": "2026-09-25 21:40 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.3 MB",
+          "memory_pct": "24.8%",
+          "path": "src/easy/0020-valid-parentheses/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.3 MB",
-      "memory_pct": "25.0%",
-      "date": "2026-09-25"
+      "memory_pct": "24.8%",
+      "date": "2026-09-25 21:40 UTC",
+      "timestamp": 1790372421
     },
     {
       "qid": "0026",
       "title": "Remove Duplicates from Sorted Array",
       "slug": "remove-duplicates-from-sorted-array",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2153317864",
+          "timestamp": 1790363804,
+          "date": "2026-09-25 19:16 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "1 ms",
+          "runtime_pct": "57.1%",
+          "memory": "20.5 MB",
+          "memory_pct": "80.1%",
+          "path": "src/easy/0026-remove-duplicates-from-sorted-array/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "1 ms",
       "runtime_pct": "57.1%",
       "memory": "20.5 MB",
       "memory_pct": "80.1%",
-      "date": "2026-09-25"
+      "date": "2026-09-25 19:16 UTC",
+      "timestamp": 1790363804
     },
     {
       "qid": "0033",
       "title": "Search in Rotated Sorted Array",
       "slug": "search-in-rotated-sorted-array",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2153153823",
+          "timestamp": 1790353214,
+          "date": "2026-09-25 16:20 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.8 MB",
+          "memory_pct": "11.1%",
+          "path": "src/medium/0033-search-in-rotated-sorted-array/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.8 MB",
-      "memory_pct": "11.2%",
-      "date": "2026-09-25"
+      "memory_pct": "11.1%",
+      "date": "2026-09-25 16:20 UTC",
+      "timestamp": 1790353214
     },
     {
       "qid": "0042",
       "title": "Trapping Rain Water",
       "slug": "trapping-rain-water",
       "difficulty": "Hard",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2108881491",
+          "timestamp": 1786878096,
+          "date": "2026-08-16 11:01 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "7 ms",
+          "runtime_pct": "72.4%",
+          "memory": "21.2 MB",
+          "memory_pct": "12.0%",
+          "path": "src/hard/0042-trapping-rain-water/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "7 ms",
-      "runtime_pct": "72.3%",
+      "runtime_pct": "72.4%",
       "memory": "21.2 MB",
-      "memory_pct": "11.9%",
-      "date": "2026-08-16"
+      "memory_pct": "12.0%",
+      "date": "2026-08-16 11:01 UTC",
+      "timestamp": 1786878096
     },
     {
       "qid": "0056",
       "title": "Merge Intervals",
       "slug": "merge-intervals",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2151755073",
+          "timestamp": 1790236986,
+          "date": "2026-09-24 08:03 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "11 ms",
+          "runtime_pct": "26.0%",
+          "memory": "23.2 MB",
+          "memory_pct": "30.2%",
+          "path": "src/medium/0056-merge-intervals/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "11 ms",
-      "runtime_pct": "25.9%",
+      "runtime_pct": "26.0%",
       "memory": "23.2 MB",
-      "memory_pct": "30.1%",
-      "date": "2026-09-24"
+      "memory_pct": "30.2%",
+      "date": "2026-09-24 08:03 UTC",
+      "timestamp": 1790236986
     },
     {
       "qid": "0070",
       "title": "Climbing Stairs",
       "slug": "climbing-stairs",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2128521719",
+          "timestamp": 1788358365,
+          "date": "2026-09-02 14:12 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.5 MB",
+          "memory_pct": "18.5%",
+          "path": "src/easy/0070-climbing-stairs/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.5 MB",
       "memory_pct": "18.5%",
-      "date": "2026-09-02"
+      "date": "2026-09-02 14:12 UTC",
+      "timestamp": 1788358365
     },
     {
       "qid": "0080",
       "title": "Remove Duplicates from Sorted Array II",
       "slug": "remove-duplicates-from-sorted-array-ii",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2153327133",
+          "timestamp": 1790364730,
+          "date": "2026-09-25 19:32 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "6 ms",
+          "runtime_pct": "86.7%",
+          "memory": "21 MB",
+          "memory_pct": "98.2%",
+          "path": "src/medium/0080-remove-duplicates-from-sorted-array-ii/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "6 ms",
-      "runtime_pct": "87.9%",
+      "runtime_pct": "86.7%",
       "memory": "21 MB",
-      "memory_pct": "98.4%",
-      "date": "2026-09-25"
+      "memory_pct": "98.2%",
+      "date": "2026-09-25 19:32 UTC",
+      "timestamp": 1790364730
     },
     {
       "qid": "0121",
       "title": "Best Time to Buy and Sell Stock",
       "slug": "best-time-to-buy-and-sell-stock",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2151862903",
+          "timestamp": 1790244669,
+          "date": "2026-09-24 10:11 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "29 ms",
+          "runtime_pct": "86.2%",
+          "memory": "28.7 MB",
+          "memory_pct": "43.3%",
+          "path": "src/easy/0121-best-time-to-buy-and-sell-stock/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "29 ms",
       "runtime_pct": "86.2%",
       "memory": "28.7 MB",
       "memory_pct": "43.3%",
-      "date": "2026-09-24"
+      "date": "2026-09-24 10:11 UTC",
+      "timestamp": 1790244669
     },
     {
       "qid": "0122",
       "title": "Best Time to Buy and Sell Stock II",
       "slug": "best-time-to-buy-and-sell-stock-ii",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2151888627",
+          "timestamp": 1790246563,
+          "date": "2026-09-24 10:42 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "3 ms",
+          "runtime_pct": "60.4%",
+          "memory": "20.1 MB",
+          "memory_pct": "98.0%",
+          "path": "src/medium/0122-best-time-to-buy-and-sell-stock-ii/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "3 ms",
-      "runtime_pct": "60.3%",
+      "runtime_pct": "60.4%",
       "memory": "20.1 MB",
-      "memory_pct": "97.9%",
-      "date": "2026-09-24"
+      "memory_pct": "98.0%",
+      "date": "2026-09-24 10:42 UTC",
+      "timestamp": 1790246563
     },
     {
       "qid": "0123",
       "title": "Best Time to Buy and Sell Stock III",
       "slug": "best-time-to-buy-and-sell-stock-iii",
       "difficulty": "Hard",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2152050566",
+          "timestamp": 1790258730,
+          "date": "2026-09-24 14:05 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "120 ms",
+          "runtime_pct": "52.3%",
+          "memory": "31.2 MB",
+          "memory_pct": "41.8%",
+          "path": "src/hard/0123-best-time-to-buy-and-sell-stock-iii/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "120 ms",
       "runtime_pct": "52.3%",
       "memory": "31.2 MB",
       "memory_pct": "41.8%",
-      "date": "2026-09-24"
+      "date": "2026-09-24 14:05 UTC",
+      "timestamp": 1790258730
     },
     {
       "qid": "0138",
       "title": "Copy List with Random Pointer",
       "slug": "copy-list-with-random-pointer",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2152099706",
+          "timestamp": 1790261738,
+          "date": "2026-09-24 14:55 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "49 ms",
+          "runtime_pct": "46.8%",
+          "memory": "19.9 MB",
+          "memory_pct": "98.5%",
+          "path": "src/medium/0138-copy-list-with-random-pointer/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "49 ms",
-      "runtime_pct": "46.9%",
+      "runtime_pct": "46.8%",
       "memory": "19.9 MB",
       "memory_pct": "98.5%",
-      "date": "2026-09-24"
+      "date": "2026-09-24 14:55 UTC",
+      "timestamp": 1790261738
     },
     {
       "qid": "0200",
       "title": "Number of Islands",
       "slug": "number-of-islands",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 1,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2107460668",
+          "timestamp": 1786785520,
+          "date": "2026-08-15 09:18 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "213 ms",
+          "runtime_pct": "97.7%",
+          "memory": "21.5 MB",
+          "memory_pct": "73.8%",
+          "path": "src/medium/0200-number-of-islands/solution-v1.py"
+        },
+        {
+          "version": 2,
+          "submission_id": "2153179795",
+          "timestamp": 1790354804,
+          "date": "2026-09-25 16:46 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "230 ms",
+          "runtime_pct": "87.6%",
+          "memory": "21.5 MB",
+          "memory_pct": "92.5%",
+          "path": "src/medium/0200-number-of-islands/solution-v2.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "230 ms",
       "runtime_pct": "87.6%",
       "memory": "21.5 MB",
-      "memory_pct": "92.6%",
-      "date": "2026-09-25"
+      "memory_pct": "92.5%",
+      "date": "2026-09-25 16:46 UTC",
+      "timestamp": 1790354804
     },
     {
       "qid": "0207",
       "title": "Course Schedule",
       "slug": "course-schedule",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2154380620",
+          "timestamp": 1790458865,
+          "date": "2026-09-26 21:41 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "7 ms",
+          "runtime_pct": "44.3%",
+          "memory": "21.3 MB",
+          "memory_pct": "25.9%",
+          "path": "src/medium/0207-course-schedule/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "7 ms",
       "runtime_pct": "44.3%",
       "memory": "21.3 MB",
       "memory_pct": "25.9%",
-      "date": "2026-09-26"
+      "date": "2026-09-26 21:41 UTC",
+      "timestamp": 1790458865
     },
     {
       "qid": "0875",
       "title": "Koko Eating Bananas",
       "slug": "koko-eating-bananas",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2107582391",
+          "timestamp": 1786793449,
+          "date": "2026-08-15 11:30 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "255 ms",
+          "runtime_pct": "5.1%",
+          "memory": "20.8 MB",
+          "memory_pct": "13.7%",
+          "path": "src/medium/0875-koko-eating-bananas/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "255 ms",
-      "runtime_pct": "5.0%",
+      "runtime_pct": "5.1%",
       "memory": "20.8 MB",
-      "memory_pct": "13.8%",
-      "date": "2026-08-15"
+      "memory_pct": "13.7%",
+      "date": "2026-08-15 11:30 UTC",
+      "timestamp": 1786793449
     },
     {
       "qid": "0877",
       "title": "Stone Game",
       "slug": "stone-game",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2118903495",
+          "timestamp": 1787599633,
+          "date": "2026-08-24 19:27 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "68.4%",
+          "path": "src/medium/0877-stone-game/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.2 MB",
       "memory_pct": "68.4%",
-      "date": "2026-08-24"
+      "date": "2026-08-24 19:27 UTC",
+      "timestamp": 1787599633
     },
     {
       "qid": "0997",
       "title": "Find the Town Judge",
       "slug": "find-the-town-judge",
       "difficulty": "Easy",
-      "lang": "C",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "1663259447",
+          "timestamp": 1749842082,
+          "date": "2025-06-13 19:14 UTC",
+          "lang": "c",
+          "ext": "c",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.6 MB",
+          "memory_pct": "100.0%",
+          "path": "src/easy/0997-find-the-town-judge/solution-v1.c"
+        }
+      ],
+      "lang": "c",
       "ext": "c",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.6 MB",
       "memory_pct": "100.0%",
-      "date": "2025-06-13"
+      "date": "2025-06-13 19:14 UTC",
+      "timestamp": 1749842082
     },
     {
       "qid": "1200",
       "title": "Minimum Absolute Difference",
       "slug": "minimum-absolute-difference",
       "difficulty": "Easy",
-      "lang": "Python",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "1897507904",
+          "timestamp": 1769426122,
+          "date": "2026-01-26 11:15 UTC",
+          "lang": "python",
+          "ext": "py",
+          "runtime": "63 ms",
+          "runtime_pct": "91.7%",
+          "memory": "21.6 MB",
+          "memory_pct": "44.9%",
+          "path": "src/easy/1200-minimum-absolute-difference/solution-v1.py"
+        }
+      ],
+      "lang": "python",
       "ext": "py",
       "runtime": "63 ms",
-      "runtime_pct": "91.5%",
+      "runtime_pct": "91.7%",
       "memory": "21.6 MB",
       "memory_pct": "44.9%",
-      "date": "2026-01-26"
+      "date": "2026-01-26 11:15 UTC",
+      "timestamp": 1769426122
     },
     {
       "qid": "1461",
       "title": "Check If a String Contains All Binary Codes of Size K",
       "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
       "difficulty": "Medium",
-      "lang": "Python",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "1928493363",
+          "timestamp": 1771850650,
+          "date": "2026-02-23 12:44 UTC",
+          "lang": "python",
+          "ext": "py",
+          "runtime": "229 ms",
+          "runtime_pct": "94.6%",
+          "memory": "63.2 MB",
+          "memory_pct": "67.9%",
+          "path": "src/medium/1461-check-if-a-string-contains-all-binary-codes-of-size-k/solution-v1.py"
+        }
+      ],
+      "lang": "python",
       "ext": "py",
       "runtime": "229 ms",
-      "runtime_pct": "91.4%",
+      "runtime_pct": "94.6%",
       "memory": "63.2 MB",
-      "memory_pct": "65.5%",
-      "date": "2026-02-23"
+      "memory_pct": "67.9%",
+      "date": "2026-02-23 12:44 UTC",
+      "timestamp": 1771850650
     },
     {
       "qid": "1488",
       "title": "Avoid Flood in The City",
       "slug": "avoid-flood-in-the-city",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "1819335303",
+          "timestamp": 1762155933,
+          "date": "2025-11-03 07:45 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "160 ms",
+          "runtime_pct": "92.0%",
+          "memory": "35.1 MB",
+          "memory_pct": "48.7%",
+          "path": "src/medium/1488-avoid-flood-in-the-city/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "160 ms",
-      "runtime_pct": "90.8%",
+      "runtime_pct": "92.0%",
       "memory": "35.1 MB",
-      "memory_pct": "47.7%",
-      "date": "2025-11-03"
+      "memory_pct": "48.7%",
+      "date": "2025-11-03 07:45 UTC",
+      "timestamp": 1762155933
     },
     {
       "qid": "1658",
       "title": "Minimum Operations to Reduce X to Zero",
       "slug": "minimum-operations-to-reduce-x-to-zero",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2150982660",
+          "timestamp": 1790174037,
+          "date": "2026-09-23 14:33 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "67 ms",
+          "runtime_pct": "71.8%",
+          "memory": "30.9 MB",
+          "memory_pct": "65.5%",
+          "path": "src/medium/1658-minimum-operations-to-reduce-x-to-zero/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "67 ms",
       "runtime_pct": "71.8%",
       "memory": "30.9 MB",
-      "memory_pct": "65.4%",
-      "date": "2026-09-23"
+      "memory_pct": "65.5%",
+      "date": "2026-09-23 14:33 UTC",
+      "timestamp": 1790174037
     },
     {
       "qid": "1984",
       "title": "Minimum Difference Between Highest and Lowest of K Scores",
       "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
       "difficulty": "Easy",
-      "lang": "C++",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "1897007968",
+          "timestamp": 1769386306,
+          "date": "2026-01-26 00:11 UTC",
+          "lang": "cpp",
+          "ext": "cpp",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "17.1 MB",
+          "memory_pct": "90.7%",
+          "path": "src/easy/1984-minimum-difference-between-highest-and-lowest-of-k-scores/solution-v1.cpp"
+        }
+      ],
+      "lang": "cpp",
       "ext": "cpp",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "17.1 MB",
-      "memory_pct": "90.8%",
-      "date": "2026-01-26"
+      "memory_pct": "90.7%",
+      "date": "2026-01-26 00:11 UTC",
+      "timestamp": 1769386306
     },
     {
       "qid": "2058",
       "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
       "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2126235642",
+          "timestamp": 1788188620,
+          "date": "2026-08-31 15:03 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "67 ms",
+          "runtime_pct": "82.7%",
+          "memory": "63.3 MB",
+          "memory_pct": "20.5%",
+          "path": "src/medium/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "67 ms",
       "runtime_pct": "82.7%",
       "memory": "63.3 MB",
       "memory_pct": "20.5%",
-      "date": "2026-08-31"
+      "date": "2026-08-31 15:03 UTC",
+      "timestamp": 1788188620
     },
     {
       "qid": "2144",
       "title": "Minimum Cost of Buying Candies With Discount",
       "slug": "minimum-cost-of-buying-candies-with-discount",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2018965929",
+          "timestamp": 1780307131,
+          "date": "2026-06-01 09:45 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "88.5%",
+          "path": "src/easy/2144-minimum-cost-of-buying-candies-with-discount/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.2 MB",
-      "memory_pct": "88.2%",
-      "date": "2026-06-01"
+      "memory_pct": "88.5%",
+      "date": "2026-06-01 09:45 UTC",
+      "timestamp": 1780307131
     },
     {
       "qid": "2839",
       "title": "Check if Strings Can be Made Equal With Operations I",
       "slug": "check-if-strings-can-be-made-equal-with-operations-i",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2119580823",
+          "timestamp": 1787657492,
+          "date": "2026-08-25 11:31 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "90.9%",
+          "path": "src/easy/2839-check-if-strings-can-be-made-equal-with-operations-i/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.2 MB",
-      "memory_pct": "90.7%",
-      "date": "2026-08-25"
+      "memory_pct": "90.9%",
+      "date": "2026-08-25 11:31 UTC",
+      "timestamp": 1787657492
     },
     {
       "qid": "2840",
       "title": "Check if Strings Can be Made Equal With Operations II",
       "slug": "check-if-strings-can-be-made-equal-with-operations-ii",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2119603313",
+          "timestamp": 1787659200,
+          "date": "2026-08-25 12:00 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "48 ms",
+          "runtime_pct": "92.1%",
+          "memory": "20.1 MB",
+          "memory_pct": "78.7%",
+          "path": "src/medium/2840-check-if-strings-can-be-made-equal-with-operations-ii/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "48 ms",
       "runtime_pct": "92.1%",
       "memory": "20.1 MB",
-      "memory_pct": "79.1%",
-      "date": "2026-08-25"
+      "memory_pct": "78.7%",
+      "date": "2026-08-25 12:00 UTC",
+      "timestamp": 1787659200
     },
     {
       "qid": "3069",
       "title": "Distribute Elements Into Two Arrays I",
       "slug": "distribute-elements-into-two-arrays-i",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2114029529",
+          "timestamp": 1787235874,
+          "date": "2026-08-20 14:24 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "1 ms",
+          "runtime_pct": "27.9%",
+          "memory": "19.2 MB",
+          "memory_pct": "64.5%",
+          "path": "src/easy/3069-distribute-elements-into-two-arrays-i/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "1 ms",
       "runtime_pct": "27.9%",
       "memory": "19.2 MB",
       "memory_pct": "64.5%",
-      "date": "2026-08-20"
+      "date": "2026-08-20 14:24 UTC",
+      "timestamp": 1787235874
     },
     {
       "qid": "3121",
       "title": "Count the Number of Special Characters II",
       "slug": "count-the-number-of-special-characters-ii",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2014803757",
+          "timestamp": 1779903087,
+          "date": "2026-05-27 17:31 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "492 ms",
+          "runtime_pct": "8.9%",
+          "memory": "21.7 MB",
+          "memory_pct": "10.7%",
+          "path": "src/medium/3121-count-the-number-of-special-characters-ii/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "492 ms",
       "runtime_pct": "8.9%",
       "memory": "21.7 MB",
-      "memory_pct": "10.8%",
-      "date": "2026-05-27"
+      "memory_pct": "10.7%",
+      "date": "2026-05-27 17:31 UTC",
+      "timestamp": 1779903087
     },
     {
       "qid": "3296",
       "title": "Minimum Number of Seconds to Make Mountain Height Zero",
       "slug": "minimum-number-of-seconds-to-make-mountain-height-zero",
       "difficulty": "Medium",
-      "lang": "Python",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "1946833172",
+          "timestamp": 1773391294,
+          "date": "2026-03-13 08:41 UTC",
+          "lang": "python",
+          "ext": "py",
+          "runtime": "903 ms",
+          "runtime_pct": "45.5%",
+          "memory": "17.2 MB",
+          "memory_pct": "3.0%",
+          "path": "src/medium/3296-minimum-number-of-seconds-to-make-mountain-height-zero/solution-v1.py"
+        }
+      ],
+      "lang": "python",
       "ext": "py",
       "runtime": "903 ms",
       "runtime_pct": "45.5%",
       "memory": "17.2 MB",
       "memory_pct": "3.0%",
-      "date": "2026-03-13"
+      "date": "2026-03-13 08:41 UTC",
+      "timestamp": 1773391294
     },
     {
       "qid": "3300",
       "title": "Minimum Element After Replacement With Digit Sum",
       "slug": "minimum-element-after-replacement-with-digit-sum",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2016524347",
+          "timestamp": 1780066866,
+          "date": "2026-05-29 15:01 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "6 ms",
+          "runtime_pct": "32.9%",
+          "memory": "19.1 MB",
+          "memory_pct": "91.5%",
+          "path": "src/easy/3300-minimum-element-after-replacement-with-digit-sum/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "6 ms",
       "runtime_pct": "32.9%",
       "memory": "19.1 MB",
-      "memory_pct": "91.3%",
-      "date": "2026-05-29"
+      "memory_pct": "91.5%",
+      "date": "2026-05-29 15:01 UTC",
+      "timestamp": 1780066866
     },
     {
       "qid": "3471",
       "title": "Find the Largest Almost Missing Integer",
       "slug": "find-the-largest-almost-missing-integer",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2111571329",
+          "timestamp": 1787065075,
+          "date": "2026-08-18 14:57 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "94.0%",
+          "path": "src/easy/3471-find-the-largest-almost-missing-integer/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.2 MB",
       "memory_pct": "94.0%",
-      "date": "2026-08-18"
+      "date": "2026-08-18 14:57 UTC",
+      "timestamp": 1787065075
     },
     {
       "qid": "3550",
       "title": "Smallest Index With Digit Sum Equal to Index",
       "slug": "smallest-index-with-digit-sum-equal-to-index",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2151771451",
+          "timestamp": 1790238338,
+          "date": "2026-09-24 08:25 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "7 ms",
+          "runtime_pct": "12.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "90.3%",
+          "path": "src/easy/3550-smallest-index-with-digit-sum-equal-to-index/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "7 ms",
       "runtime_pct": "12.0%",
       "memory": "19.2 MB",
       "memory_pct": "90.3%",
-      "date": "2026-09-24"
+      "date": "2026-09-24 08:25 UTC",
+      "timestamp": 1790238338
     },
     {
       "qid": "3612",
       "title": "Process String with Special Operations I",
       "slug": "process-string-with-special-operations-i",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2035410871",
+          "timestamp": 1781627901,
+          "date": "2026-06-16 16:38 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "23.3 MB",
+          "memory_pct": "85.1%",
+          "path": "src/medium/3612-process-string-with-special-operations-i/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "23.3 MB",
-      "memory_pct": "85.0%",
-      "date": "2026-06-16"
+      "memory_pct": "85.1%",
+      "date": "2026-06-16 16:38 UTC",
+      "timestamp": 1781627901
     },
     {
       "qid": "3622",
       "title": "Check Divisibility by Digit Sum and Product",
       "slug": "check-divisibility-by-digit-sum-and-product",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2115931921",
+          "timestamp": 1787389182,
+          "date": "2026-08-22 08:59 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.4 MB",
+          "memory_pct": "25.5%",
+          "path": "src/easy/3622-check-divisibility-by-digit-sum-and-product/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.4 MB",
       "memory_pct": "25.5%",
-      "date": "2026-08-22"
+      "date": "2026-08-22 08:59 UTC",
+      "timestamp": 1787389182
     },
     {
       "qid": "3718",
       "title": "Smallest Missing Multiple of K",
       "slug": "smallest-missing-multiple-of-k",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2119314423",
+          "timestamp": 1787640270,
+          "date": "2026-08-25 06:44 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "90.5%",
+          "path": "src/easy/3718-smallest-missing-multiple-of-k/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.2 MB",
       "memory_pct": "90.5%",
-      "date": "2026-08-25"
+      "date": "2026-08-25 06:44 UTC",
+      "timestamp": 1787640270
     },
     {
       "qid": "3751",
       "title": "Total Waviness of Numbers in Range I",
       "slug": "total-waviness-of-numbers-in-range-i",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2022391932",
+          "timestamp": 1780584727,
+          "date": "2026-06-04 14:52 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "328 ms",
+          "runtime_pct": "40.0%",
+          "memory": "19.3 MB",
+          "memory_pct": "39.3%",
+          "path": "src/medium/3751-total-waviness-of-numbers-in-range-i/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "328 ms",
       "runtime_pct": "40.0%",
       "memory": "19.3 MB",
-      "memory_pct": "40.0%",
-      "date": "2026-06-04"
+      "memory_pct": "39.3%",
+      "date": "2026-06-04 14:52 UTC",
+      "timestamp": 1780584727
     },
     {
       "qid": "3875",
       "title": "Construct Uniform Parity Array I",
       "slug": "construct-uniform-parity-array-i",
       "difficulty": "Easy",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2128539372",
+          "timestamp": 1788359285,
+          "date": "2026-09-02 14:28 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "86.7%",
+          "path": "src/easy/3875-construct-uniform-parity-array-i/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
       "memory": "19.2 MB",
       "memory_pct": "86.7%",
-      "date": "2026-09-02"
+      "date": "2026-09-02 14:28 UTC",
+      "timestamp": 1788359285
     },
     {
       "qid": "3876",
       "title": "Construct Uniform Parity Array II",
       "slug": "construct-uniform-parity-array-ii",
       "difficulty": "Medium",
-      "lang": "Python3",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2129493012",
+          "timestamp": 1788430961,
+          "date": "2026-09-03 10:22 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "66 ms",
+          "runtime_pct": "38.6%",
+          "memory": "35 MB",
+          "memory_pct": "91.8%",
+          "path": "src/medium/3876-construct-uniform-parity-array-ii/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
       "ext": "py",
       "runtime": "66 ms",
       "runtime_pct": "38.6%",
       "memory": "35 MB",
       "memory_pct": "91.8%",
-      "date": "2026-09-03"
+      "date": "2026-09-03 10:22 UTC",
+      "timestamp": 1788430961
     }
   ]
 }

@@ -1,9 +1,17 @@
 # [3875] Construct Uniform Parity Array I
 
-**Difficulty:** Easy  
-**Date Solved:** 2026-09-02  
-**Runtime:** 0 ms (100.0%)  
-**Memory:** 19.2 MB (86.7%)  
+- **Difficulty:** Easy
+- **Latest accepted:** 2026-09-02 14:28 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-09-02 14:28 UTC | Python3 | 0 ms (100.0%) | 19.2 MB (86.7%) | [Code](solution-v1.py) |
 
 ---
 

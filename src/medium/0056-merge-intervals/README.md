@@ -1,9 +1,17 @@
 # [0056] Merge Intervals
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-09-24  
-**Runtime:** 11 ms (25.9%)  
-**Memory:** 23.2 MB (30.1%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-09-24 08:03 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-09-24 08:03 UTC | Python3 | 11 ms (26.0%) | 23.2 MB (30.2%) | [Code](solution-v1.py) |
 
 ---
 

@@ -1,9 +1,17 @@
 # [3550] Smallest Index With Digit Sum Equal to Index
 
-**Difficulty:** Easy  
-**Date Solved:** 2026-09-24  
-**Runtime:** 7 ms (12.0%)  
-**Memory:** 19.2 MB (90.3%)  
+- **Difficulty:** Easy
+- **Latest accepted:** 2026-09-24 08:25 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-09-24 08:25 UTC | Python3 | 7 ms (12.0%) | 19.2 MB (90.3%) | [Code](solution-v1.py) |
 
 ---
 

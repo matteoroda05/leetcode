@@ -1,9 +1,17 @@
 # [0013] Roman to Integer
 
-**Difficulty:** Easy  
-**Date Solved:** 2026-03-10  
-**Runtime:** 5 ms (82.0%)  
-**Memory:** 12.5 MB (22.4%)  
+- **Difficulty:** Easy
+- **Latest accepted:** 2026-03-10 22:12 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-03-10 22:12 UTC | Python | 5 ms (82.0%) | 12.5 MB (22.3%) | [Code](solution-v1.py) |
 
 ---
 

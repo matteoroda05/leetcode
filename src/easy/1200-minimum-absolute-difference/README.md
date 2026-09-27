@@ -1,9 +1,17 @@
 # [1200] Minimum Absolute Difference
 
-**Difficulty:** Easy  
-**Date Solved:** 2026-01-26  
-**Runtime:** 63 ms (91.5%)  
-**Memory:** 21.6 MB (44.9%)  
+- **Difficulty:** Easy
+- **Latest accepted:** 2026-01-26 11:15 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-01-26 11:15 UTC | Python | 63 ms (91.7%) | 21.6 MB (44.9%) | [Code](solution-v1.py) |
 
 ---
 

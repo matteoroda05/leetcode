@@ -1,9 +1,18 @@
 # [0200] Number of Islands
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-09-25  
-**Runtime:** 230 ms (87.6%)  
-**Memory:** 21.5 MB (92.6%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-09-25 16:46 UTC
+- **Resubmissions (>48 hours):** 1
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-08-15 09:18 UTC | Python3 | 213 ms (97.7%) | 21.5 MB (73.8%) | [Code](solution-v1.py) |
+| v2 | 2026-09-25 16:46 UTC | Python3 | 230 ms (87.6%) | 21.5 MB (92.5%) | [Code](solution-v2.py) |
 
 ---
 

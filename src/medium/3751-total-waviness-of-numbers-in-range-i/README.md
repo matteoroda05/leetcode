@@ -1,9 +1,17 @@
 # [3751] Total Waviness of Numbers in Range I
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-06-04  
-**Runtime:** 328 ms (40.0%)  
-**Memory:** 19.3 MB (40.0%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-06-04 14:52 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-06-04 14:52 UTC | Python3 | 328 ms (40.0%) | 19.3 MB (39.3%) | [Code](solution-v1.py) |
 
 ---
 

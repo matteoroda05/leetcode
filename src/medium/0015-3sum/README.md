@@ -1,9 +1,17 @@
 # [0015] 3Sum
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-08-16  
-**Runtime:** 1026 ms (15.6%)  
-**Memory:** 24.4 MB (5.3%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-08-16 17:14 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-08-16 17:14 UTC | Python3 | 1026 ms (15.7%) | 24.4 MB (5.3%) | [Code](solution-v1.py) |
 
 ---
 

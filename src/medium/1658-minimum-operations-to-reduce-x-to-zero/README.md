@@ -1,9 +1,17 @@
 # [1658] Minimum Operations to Reduce X to Zero
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-09-23  
-**Runtime:** 67 ms (71.8%)  
-**Memory:** 30.9 MB (65.4%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-09-23 14:33 UTC
+- **Resubmissions (>48 hours):** 0
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-09-23 14:33 UTC | Python3 | 67 ms (71.8%) | 30.9 MB (65.5%) | [Code](solution-v1.py) |
 
 ---
 

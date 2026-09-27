@@ -1,9 +1,18 @@
 # [0011] Container With Most Water
 
-**Difficulty:** Medium  
-**Date Solved:** 2026-09-25  
-**Runtime:** 44 ms (94.2%)  
-**Memory:** 29.7 MB (15.3%)  
+- **Difficulty:** Medium
+- **Latest accepted:** 2026-09-25 21:27 UTC
+- **Resubmissions (>48 hours):** 1
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| v1 | 2026-08-16 14:27 UTC | Python3 | 53 ms (77.1%) | 29.3 MB (97.9%) | [Code](solution-v1.py) |
+| v2 | 2026-09-25 21:27 UTC | Python3 | 44 ms (94.1%) | 29.7 MB (15.3%) | [Code](solution-v2.py) |
 
 ---
 

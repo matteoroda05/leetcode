@@ -4,6 +4,9 @@ import json
 import time
 import subprocess
 import requests
+from datetime import datetime
+from collections import Counter
+import urllib.parse
 
 LEETCODE_SESSION = os.environ.get("LEETCODE_SESSION")
 CSRF_TOKEN = os.environ.get("LEETCODE_CSRF_TOKEN")
@@ -101,9 +104,6 @@ def get_submission_details(submission_id):
         return data["submissionDetails"]
     return None
 
-from collections import Counter
-import urllib.parse
-
 def update_readme(problems_data):
     stats = {"easy": 0, "medium": 0, "hard": 0}
     lang_counter = Counter()
@@ -118,7 +118,7 @@ def update_readme(problems_data):
 
     total = stats["easy"] + stats["medium"] + stats["hard"]
 
-    # Generate QuickChart dynamic pie chart URL for coding languages
+    # Generate QuickChart dynamic doughnut chart URL
     if lang_counter:
         labels = list(lang_counter.keys())
         data_values = list(lang_counter.values())
@@ -149,13 +149,12 @@ def update_readme(problems_data):
     else:
         chart_img_md = "*No submissions indexed yet.*"
 
-    # Build language stats badge row
     lang_badges = " ".join([
         f'`{lang}: {count} ({round((count / total) * 100, 1)}%)`'
         for lang, count in lang_counter.most_common()
     ]) if total > 0 else "N/A"
 
-    # Generate the table rows
+    # Build the table rows with the Date Solved column
     table_rows = []
     for p in sorted(problems_data, key=lambda x: int(x["qid"])):
         qid = p["qid"]
@@ -172,7 +171,7 @@ def update_readme(problems_data):
         lang_name = LANG_DISPLAY.get(p["lang"], p["lang"])
 
         table_rows.append(
-            f"| {qid} | [{title}]({lc_url}) | [Solution]({solution_rel_url}) | {lang_name} | {diff_tag} | {p['runtime']} ({p['runtime_pct']}) | {p['memory']} ({p['memory_pct']}) |"
+            f"| {qid} | [{title}]({lc_url}) | [Solution]({solution_rel_url}) | {lang_name} | {diff_tag} | {p['runtime']} ({p['runtime_pct']}) | {p['memory']} ({p['memory_pct']}) | {p['date']} |"
         )
 
     rows_str = "\n".join(table_rows)
@@ -224,8 +223,8 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 ### 📑 Index of Solutions
 
-| # | Title | Solution | Language | Difficulty | Runtime | Memory |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: |
+| # | Title | Solution | Language | Difficulty | Runtime | Memory | Date Solved |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 {rows_str}
 
 ---
@@ -266,6 +265,11 @@ def main():
         lang = sub["lang"]
         ext = EXTENSIONS.get(lang, "txt")
 
+        # Format submission timestamp into YYYY-MM-DD
+        sub_time = int(sub["timestamp"])
+        formatted_date = datetime.fromtimestamp(sub_time).strftime("%Y-%m-%d")
+
+        # Percentile metrics
         r_disp = details.get("runtimeDisplay") or f"{details.get('runtime', 0)}ms"
         r_pct = f"{round(details.get('runtimePercentile') or 0, 1)}%"
         m_disp = details.get("memoryDisplay") or f"{round((details.get('memory') or 0) / (1024*1024), 1)}MB"
@@ -281,7 +285,8 @@ def main():
             "runtime": r_disp,
             "runtime_pct": r_pct,
             "memory": m_disp,
-            "memory_pct": m_pct
+            "memory_pct": m_pct,
+            "date": formatted_date
         })
 
         folder_name = f"{qid}-{slug}"
@@ -296,10 +301,25 @@ def main():
                 f.write(code)
 
             clean_html = re.sub(r'<[^>]+>', '', q.get("content", "") or "")
-            with open(problem_desc_path, "w", encoding="utf-8") as f:
-                f.write(f"# [{qid}] {title}\n\n**Difficulty:** {difficulty}\n\n{clean_html.strip()}\n")
+            
+            # Single problem README content with Date Solved & Benchmarks
+            problem_readme = f"""# [{qid}] {title}
 
-            commit_msg = f"LeetCode Sync: {qid} | {title} | Time: {r_disp} ({r_pct}) | Memory: {m_disp} ({m_pct})"
+**Difficulty:** {difficulty}  
+**Date Solved:** {formatted_date}  
+**Runtime:** {r_disp} ({r_pct})  
+**Memory:** {m_disp} ({m_pct})  
+
+---
+
+### Description
+{clean_html.strip()}
+"""
+            with open(problem_desc_path, "w", encoding="utf-8") as f:
+                f.write(problem_readme)
+
+            # Single commit message with Date included
+            commit_msg = f"LeetCode Sync: {qid} | {title} | {formatted_date} | Time: {r_disp} ({r_pct}) | Memory: {m_disp} ({m_pct})"
             subprocess.run(["git", "add", target_dir], check=True)
             subprocess.run(["git", "commit", "-m", commit_msg], check=True)
             time.sleep(0.3)

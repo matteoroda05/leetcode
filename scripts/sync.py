@@ -235,6 +235,12 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
 
+def update_site_data(problems_data):
+    os.makedirs("docs/leetcode", exist_ok=True)
+    with open("docs/leetcode/data.json", "w", encoding="utf-8") as f:
+        json.dump({"profile": "Matteoroda", "problems": problems_data}, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
 def main():
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
     subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
@@ -322,10 +328,15 @@ def main():
                 time.sleep(0.3)
 
     update_readme(problems_metadata)
+    update_site_data(problems_metadata)
     diff = subprocess.run(["git", "diff", "--quiet", "README.md"]).returncode
     if diff != 0:
         subprocess.run(["git", "add", "README.md"], check=True)
         subprocess.run(["git", "commit", "-m", "docs: update solutions index table [skip ci]"], check=True)
+
+    if subprocess.run(["git", "status", "--porcelain", "--", "docs/leetcode/data.json"], capture_output=True, text=True, check=True).stdout:
+        subprocess.run(["git", "add", "docs/leetcode/data.json"], check=True)
+        subprocess.run(["git", "commit", "-m", "docs: update website data [skip ci]"], check=True)
 
 if __name__ == "__main__":
     main()

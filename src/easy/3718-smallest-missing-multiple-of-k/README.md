@@ -1,7 +1,13 @@
 # [3718] Smallest Missing Multiple of K
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-08-25  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 19.2 MB (90.5%)  
 
+---
+
+### Description
 Given an integer array nums and an integer k, return the smallest positive multiple of k that is missing from nums.
 
 A multiple of k is any positive integer divisible by k.

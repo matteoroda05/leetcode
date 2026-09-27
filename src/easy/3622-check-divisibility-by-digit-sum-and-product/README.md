@@ -1,7 +1,13 @@
 # [3622] Check Divisibility by Digit Sum and Product
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-08-22  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 19.4 MB (25.5%)  
 
+---
+
+### Description
 You are given a positive integer n. Determine whether n is divisible by the sum of the following two values:
 
 

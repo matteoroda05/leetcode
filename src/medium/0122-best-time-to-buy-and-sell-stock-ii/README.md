@@ -1,7 +1,13 @@
 # [0122] Best Time to Buy and Sell Stock II
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-09-24  
+**Runtime:** 3 ms (60.3%)  
+**Memory:** 20.1 MB (97.9%)  
 
+---
+
+### Description
 You are given an integer array prices where prices[i] is the price of a given stock on the ith day.
 
 On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any time. However, you can sell and buy the stock multiple times on the same day, ensuring you never hold more than one share of the stock.

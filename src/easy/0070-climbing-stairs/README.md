@@ -1,7 +1,13 @@
 # [0070] Climbing Stairs
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-09-02  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 19.5 MB (18.5%)  
 
+---
+
+### Description
 You are climbing a staircase. It takes n steps to reach the top.
 
 Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?

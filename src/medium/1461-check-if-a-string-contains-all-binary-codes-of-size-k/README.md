@@ -1,7 +1,13 @@
 # [1461] Check If a String Contains All Binary Codes of Size K
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-02-23  
+**Runtime:** 229 ms (91.4%)  
+**Memory:** 63.2 MB (65.5%)  
 
+---
+
+### Description
 Given a binary string s and an integer k, return true if every binary code of length k is a substring of s. Otherwise, return false.
 
 &nbsp;

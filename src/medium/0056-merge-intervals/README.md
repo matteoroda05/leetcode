@@ -1,7 +1,13 @@
 # [0056] Merge Intervals
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-09-24  
+**Runtime:** 11 ms (25.9%)  
+**Memory:** 23.2 MB (30.1%)  
 
+---
+
+### Description
 Given an array&nbsp;of intervals&nbsp;where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
 &nbsp;

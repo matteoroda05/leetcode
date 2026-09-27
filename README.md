@@ -2,7 +2,7 @@
 
 # 💻 LeetCode Solutions & Analytics
 
-[!(https://img.shields.io/badge/Website-matteoroda.com%2Fleetcode-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://matteoroda.com/leetcode/)
+[![Website](https://img.shields.io/badge/Website-matteoroda.com%2Fleetcode-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://matteoroda.com/leetcode/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/Matteoroda/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/matteoroda05)
 

@@ -1,7 +1,13 @@
 # [0123] Best Time to Buy and Sell Stock III
 
-**Difficulty:** Hard
+**Difficulty:** Hard  
+**Date Solved:** 2026-09-24  
+**Runtime:** 120 ms (52.3%)  
+**Memory:** 31.2 MB (41.8%)  
 
+---
+
+### Description
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
 Find the maximum profit you can achieve. You may complete at most two transactions.

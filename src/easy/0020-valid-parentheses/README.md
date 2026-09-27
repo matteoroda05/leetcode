@@ -1,7 +1,13 @@
 # [0020] Valid Parentheses
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-09-25  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 19.3 MB (25.0%)  
 
+---
+
+### Description
 Given a string s containing just the characters &#39;(&#39;, &#39;)&#39;, &#39;{&#39;, &#39;}&#39;, &#39;[&#39; and &#39;]&#39;, determine if the input string is valid.
 
 An input string is valid if:

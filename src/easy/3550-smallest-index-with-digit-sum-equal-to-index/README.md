@@ -1,7 +1,13 @@
 # [3550] Smallest Index With Digit Sum Equal to Index
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-09-24  
+**Runtime:** 7 ms (12.0%)  
+**Memory:** 19.2 MB (90.3%)  
 
+---
+
+### Description
 You are given an integer array nums.
 
 Return the smallest index i such that the sum of the digits of nums[i] is equal to i.

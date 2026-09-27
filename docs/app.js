@@ -1,6 +1,6 @@
 const $ = (id) => document.getElementById(id);
 const repo = 'https://github.com/matteoroda05/leetcode/blob/main/';
-const colors = {Easy:'#64dba7', Medium:'#f5c76d', Hard:'#fa897e'};
+const colors = {Easy:'#82dbab', Medium:'#f4c775', Hard:'#ff927d'};
 let problems = [];
 $('year').textContent = new Date().getFullYear();
 

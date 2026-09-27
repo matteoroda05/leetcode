@@ -1,7 +1,13 @@
 # [3471] Find the Largest Almost Missing Integer
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-08-18  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 19.2 MB (94.0%)  
 
+---
+
+### Description
 You are given an integer array nums and an integer k.
 
 An integer x is almost missing from nums if x appears in exactly one subarray of size k within nums.

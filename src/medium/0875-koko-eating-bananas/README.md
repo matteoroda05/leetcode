@@ -1,7 +1,13 @@
 # [0875] Koko Eating Bananas
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-08-15  
+**Runtime:** 255 ms (5.0%)  
+**Memory:** 20.8 MB (13.8%)  
 
+---
+
+### Description
 Koko loves to eat bananas. There are n piles of bananas, the ith pile has piles[i] bananas. The guards have gone and will come back in h hours.
 
 Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses some pile of bananas and eats k bananas from that pile. If the pile has less than k bananas, she eats all of them instead and will not eat any more bananas during this hour.

@@ -1,7 +1,13 @@
 # [3876] Construct Uniform Parity Array II
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-09-03  
+**Runtime:** 66 ms (38.6%)  
+**Memory:** 35 MB (91.8%)  
 
+---
+
+### Description
 You are given an array nums1 of n distinct integers.
 
 You want to construct another array nums2 of length n such that the elements in nums2 are either all odd or all even.

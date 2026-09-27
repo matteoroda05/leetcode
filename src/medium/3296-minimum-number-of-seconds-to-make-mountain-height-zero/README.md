@@ -1,7 +1,13 @@
 # [3296] Minimum Number of Seconds to Make Mountain Height Zero
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-03-13  
+**Runtime:** 903 ms (45.5%)  
+**Memory:** 17.2 MB (3.0%)  
 
+---
+
+### Description
 You are given an integer mountainHeight denoting the height of a mountain.
 
 You are also given an integer array workerTimes representing the work time of workers in seconds.

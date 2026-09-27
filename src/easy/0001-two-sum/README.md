@@ -1,7 +1,13 @@
 # [0001] Two Sum
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-08-16  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 20.9 MB (7.6%)  
 
+---
+
+### Description
 You are given an array of integers nums&nbsp;and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.

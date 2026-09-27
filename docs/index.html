@@ -33,6 +33,7 @@
         <article class="stat-card"><span class="stat-label">EASY <i class="dot easy"></i></span><strong id="easy">—</strong><span class="stat-foot">Foundation built</span></article>
         <article class="stat-card"><span class="stat-label">MEDIUM <i class="dot medium"></i></span><strong id="medium">—</strong><span class="stat-foot">“One quick problem”</span></article>
         <article class="stat-card"><span class="stat-label">HARD <i class="dot hard"></i></span><strong id="hard">—</strong><span class="stat-foot">Character development</span></article>
+        <article class="stat-card revisited"><span class="stat-label">REVISITED AFTER 48H <span aria-hidden="true">↻</span></span><strong id="revisited">—</strong><span class="stat-foot">Problems solved again in a new version window</span></article>
       </div>
     </section>
     <section class="insights" aria-label="Practice insights">
@@ -41,8 +42,8 @@
     </section>
     <section id="explore" class="explore" aria-labelledby="explore-title"><div class="section-head"><div><span class="section-kicker">04 / THE ARCHIVE</span><h2 id="explore-title">Every solution<span class="accent">.</span></h2></div><span id="result-count" class="updated"></span></div>
       <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><span class="sr-only">Search problems</span><input id="search" type="search" placeholder="Search by title or problem number…" autocomplete="off"></label><div class="filters"><label class="sr-only" for="difficulty-filter">Difficulty</label><select id="difficulty-filter"><option value="all">All difficulties</option><option>Easy</option><option>Medium</option><option>Hard</option></select><label class="sr-only" for="language-filter">Language</label><select id="language-filter"><option value="all">All languages</option></select><label class="sr-only" for="sort">Sort order</label><select id="sort"><option value="recent">Recently solved</option><option value="number">Problem number</option><option value="title">Title A–Z</option></select></div></div>
-      <div class="table-scroll"><table><thead><tr><th scope="col">#</th><th scope="col">PROBLEM</th><th scope="col">DIFFICULTY</th><th scope="col">LANGUAGE</th><th scope="col">SOLVED</th><th scope="col"><span class="sr-only">Source code</span></th></tr></thead><tbody id="problems"><tr><td colspan="6" class="empty">Loading solutions…</td></tr></tbody></table></div>
-      <p class="archive-note">This archive reflects accepted submissions captured by my sync script. It may differ from the total on my LeetCode profile. Performance measurements are snapshots from each submission.</p>
+      <div class="table-scroll"><table><thead><tr><th scope="col">#</th><th scope="col">PROBLEM</th><th scope="col">DIFFICULTY</th><th scope="col">LANGUAGE</th><th scope="col">SOLVED</th><th scope="col">RESUBMISSION</th><th scope="col"><span class="sr-only">Source code</span></th></tr></thead><tbody id="problems"><tr><td colspan="7" class="empty">Loading solutions…</td></tr></tbody></table></div>
+      <p class="archive-note">A resubmission means another accepted solution more than 48 hours after the start of the previous version window. The latest accepted submission within each window is kept. Expand a resubmission count to compare versions. This archive reflects submissions available to the sync script and may differ from your LeetCode profile total.</p>
     </section>
   </main>
   <footer class="wrap footer"><span>© <span id="year"></span> MATTEO RODA</span><span>BUILT THROUGH PRACTICE. STILL DEBUGGING.</span><a href="https://matteoroda.com/">BACK TO HOME ↗</a></footer>

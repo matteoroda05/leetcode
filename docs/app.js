@@ -11,6 +11,7 @@ function renderStats() {
   const byDifficulty = countBy(problems, 'difficulty');
   for (const difficulty of ['Easy','Medium','Hard']) $(difficulty.toLowerCase()).textContent = byDifficulty[difficulty] || 0;
   $('total').textContent = $('ring-value').firstChild.textContent = problems.length;
+  $('revisited').textContent = problems.filter(p => (p.resubmissions || 0) > 0).length;
   const total = problems.length || 1;
   let cursor = 0;
   const stops = [];
@@ -60,7 +61,7 @@ function renderTable() {
   items.sort((a,b)=>sort==='number' ? Number(a.qid)-Number(b.qid) : sort==='title' ? a.title.localeCompare(b.title) : b.date.localeCompare(a.date)||Number(a.qid)-Number(b.qid));
   $('result-count').textContent=`${items.length} of ${problems.length} problems`;
   const body=$('problems'); body.replaceChildren();
-  if(!items.length) {const row=document.createElement('tr');cell(row,'No matching problems. Try another search.','empty').colSpan=6;body.append(row);return;}
+  if(!items.length) {const row=document.createElement('tr');cell(row,'No matching problems. Try another search.','empty').colSpan=7;body.append(row);return;}
   const fragment=document.createDocumentFragment();
   for(const p of items) {
     const row=document.createElement('tr'); cell(row,p.qid,'number');
@@ -68,7 +69,22 @@ function renderTable() {
     const badge=document.createElement('span');badge.className=`pill ${p.difficulty}`;badge.textContent=p.difficulty;cell(row,badge);
     const display={Python3:'Python',Python:'Python',cpp:'C++',golang:'Go',javascript:'JavaScript',typescript:'TypeScript',csharp:'C#'};
     cell(row,display[p.lang]||p.lang);cell(row,p.date);
-    const source=document.createElement('a');source.className='source';source.textContent='CODE ↗';source.href=repo+`src/${p.difficulty.toLowerCase()}/${p.qid}-${p.slug}/solution.${p.ext}`;source.target='_blank';source.rel='noopener noreferrer';source.setAttribute('aria-label',`View solution for ${p.title}`);cell(row,source);
+    const versions=p.versions||[];
+    if(versions.length>1) {
+      const details=document.createElement('details'); details.className='version-details';
+      const summary=document.createElement('summary'); summary.className='version-count';
+      summary.textContent=`${versions.length-1} revisit${versions.length===2?'':'s'}`;
+      details.append(summary);
+      const list=document.createElement('div'); list.className='version-list';
+      for(const v of versions) {
+        const link=document.createElement('a'); link.href=repo+v.path;
+        link.target='_blank';link.rel='noopener noreferrer';
+        link.textContent=`v${v.version} · ${v.date} · ${display[v.lang]||v.lang} ↗`;
+        list.append(link);
+      }
+      details.append(list);cell(row,details);
+    } else {cell(row,'0','zero-revisit');}
+    const source=document.createElement('a');source.className='source';source.textContent=versions.length?`v${versions.length} CODE ↗`:'CODE ↗';source.href=repo+(versions.at(-1)?.path||`src/${p.difficulty.toLowerCase()}/${p.qid}-${p.slug}/solution.${p.ext}`);source.target='_blank';source.rel='noopener noreferrer';source.setAttribute('aria-label',`View latest solution for ${p.title}`);cell(row,source);
     fragment.append(row);
   }
   body.append(fragment);
@@ -86,7 +102,7 @@ async function start() {
     console.error('Could not load archive:',error);
     $('updated').textContent='Archive unavailable';
     $('problems').replaceChildren();
-    const row=document.createElement('tr');cell(row,'Could not load solutions. Please refresh the page.','empty').colSpan=6;$('problems').append(row);
+    const row=document.createElement('tr');cell(row,'Could not load solutions. Please refresh the page.','empty').colSpan=7;$('problems').append(row);
   }
 }
 start();

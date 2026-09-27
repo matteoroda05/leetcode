@@ -4,13 +4,16 @@ import json
 import time
 import subprocess
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from collections import Counter
+from collections import defaultdict
 import urllib.parse
+from pathlib import Path
 
 LEETCODE_SESSION = os.environ.get("LEETCODE_SESSION")
 CSRF_TOKEN = os.environ.get("LEETCODE_CSRF_TOKEN")
-OVERWRITE = os.environ.get("OVERWRITE_EXISTING", "false").lower() in ("true", "1", "yes")
+VERSION_WINDOW_SECONDS = 48 * 60 * 60
+REFRESH_UNCHANGED = os.environ.get("REFRESH_UNCHANGED", "false").lower() in ("true", "1", "yes")
 
 GRAPHQL_URL = "https://leetcode.com/graphql"
 HEADERS = {
@@ -38,11 +41,15 @@ def gql_request(query, variables=None):
     res = requests.post(
         GRAPHQL_URL,
         headers=HEADERS,
-        json={"query": query, "variables": variables or {}}
+        json={"query": query, "variables": variables or {}},
+        timeout=30,
     )
     if res.status_code != 200:
-        return None
-    return res.json().get("data", {})
+        raise RuntimeError(f"LeetCode API returned HTTP {res.status_code}")
+    payload = res.json()
+    if payload.get("errors"):
+        raise RuntimeError(f"LeetCode API reported an error: {payload['errors']}")
+    return payload.get("data", {})
 
 def get_submission_list():
     query = """
@@ -67,8 +74,8 @@ def get_submission_list():
     limit = 20
     while True:
         data = gql_request(query, {"offset": offset, "limit": limit})
-        if not data or "submissionList" not in data:
-            break
+        if not data or not data.get("submissionList"):
+            raise RuntimeError(f"Could not load submissions page at offset {offset}")
         sub_list = data["submissionList"]
         for sub in sub_list.get("submissions", []):
             if sub.get("statusDisplay") == "Accepted":
@@ -104,6 +111,30 @@ def get_submission_details(submission_id):
     if data and "submissionDetails" in data:
         return data["submissionDetails"]
     return None
+
+def group_versions(submissions):
+    """One version per 48-hour window, retaining its latest accepted submission.
+
+    The window begins with the first accepted submission in that version. A
+    submission more than 48 hours after the window began starts the next version. Sorting explicitly
+    avoids relying on LeetCode's API response order.
+    """
+    by_problem = defaultdict(list)
+    for submission in submissions:
+        by_problem[submission["titleSlug"]].append(submission)
+
+    grouped = {}
+    for slug, history in by_problem.items():
+        history.sort(key=lambda s: (int(s["timestamp"]), int(s["id"])))
+        versions = []
+        for submission in history:
+            timestamp = int(submission["timestamp"])
+            if not versions or timestamp - versions[-1]["started_at"] > VERSION_WINDOW_SECONDS:
+                versions.append({"started_at": timestamp, "submission": submission})
+            else:
+                versions[-1]["submission"] = submission
+        grouped[slug] = versions
+    return grouped
 
 def update_readme(problems_data):
     stats = {"easy": 0, "medium": 0, "hard": 0}
@@ -166,14 +197,15 @@ def update_readme(problems_data):
             f"`Hard`"
         )
         lc_url = f"https://leetcode.com/problems/{slug}/"
-        solution_rel_url = f"src/{diff.lower()}/{qid}-{slug}/solution.{p['ext']}"
+        solution_rel_url = p["versions"][-1]["path"]
         lang_name = LANG_DISPLAY.get(p["lang"], p["lang"])
 
         table_rows.append(
-            f"| {qid} | [{title}]({lc_url}) | [Solution]({solution_rel_url}) | {lang_name} | {diff_tag} | {p['runtime']} ({p['runtime_pct']}) | {p['memory']} ({p['memory_pct']}) | {p['date']} |"
+            f"| {qid} | [{title}]({lc_url}) | [v{len(p['versions'])}]({solution_rel_url}) | {lang_name} | {diff_tag} | {p['runtime']} ({p['runtime_pct']}) | {p['memory']} ({p['memory_pct']}) | {p['date']} | {p['resubmissions']} |"
         )
 
     rows_str = "\n".join(table_rows)
+    repeated = sum(p["resubmissions"] > 0 for p in problems_data)
 
     readme_content = f"""<div align="center">
 
@@ -217,14 +249,17 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | :---: | :---: | :---: | :---: |
 | **{stats['easy']}** | **{stats['medium']}** | **{stats['hard']}** | **{total}** |
 
+**{repeated} problems revisited more than 48 hours later.** A resubmission is a new
+48-hour version window; submissions within the same window update that version.
+
 ---
 
 </div>
 
 ### 📑 Index of Solutions
 
-| # | Title | Solution | Language | Difficulty | Runtime | Memory | Date Solved |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| # | Title | Solution | Language | Difficulty | Runtime | Memory | Date Solved | Resubmission |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 {rows_str}
 
 ---
@@ -242,102 +277,159 @@ def update_site_data(problems_data):
         json.dump({"profile": "Matteoroda", "problems": problems_data}, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
+def previous_records():
+    if not os.path.exists("docs/data.json"):
+        return {}
+    with open("docs/data.json", encoding="utf-8") as f:
+        data = json.load(f)
+    return {problem["slug"]: problem for problem in data.get("problems", [])}
+
+
+def has_same_versions(windows, previous):
+    if not previous or len(previous.get("versions", [])) != len(windows):
+        return False
+    return all(str(old["submission_id"]) == str(window["submission"]["id"])
+               for old, window in zip(previous["versions"], windows))
+
+
+def saved_files_exist(previous):
+    folder = os.path.dirname(previous["versions"][-1]["path"])
+    return (os.path.exists(os.path.join(folder, "README.md")) and
+            all(os.path.exists(v["path"]) for v in previous["versions"]))
+
+
+def save_problem(record, question, code_by_path, previous=None):
+    target_dir = os.path.join("src", record["difficulty"].lower(),
+                              f"{record['qid']}-{record['slug']}")
+    os.makedirs(target_dir, exist_ok=True)
+    old_versions = {v["version"]: v for v in (previous or {}).get("versions", [])}
+    for version in record["versions"]:
+        path = version["path"]
+        old = old_versions.get(version["version"])
+        if (not REFRESH_UNCHANGED and old and os.path.exists(path) and
+                old["submission_id"] == version["submission_id"] and
+                old["path"] == path):
+            continue
+        code = code_by_path[path]
+        # Version files are generated from the latest accepted submission in
+        # their 48-hour window. Older unversioned solution files are retained.
+        if not Path(path).exists() or Path(path).read_text(encoding="utf-8") != code:
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(code)
+
+    readme_path = os.path.join(target_dir, "README.md")
+    previous = ""
+    if os.path.exists(readme_path):
+        with open(readme_path, encoding="utf-8") as f:
+            previous = f.read()
+    # Keep the existing problem definition if there is one. The generated
+    # submission history above it is refreshed on every sync.
+    match = re.search(r"(?m)^### Description\s*$", previous)
+    if match:
+        description = previous[match.start():].strip()
+    else:
+        clean_html = re.sub(r"<[^>]+>", "", question.get("content", "") or "")
+        description = "### Description\n" + clean_html.strip()
+
+    rows = []
+    for version in record["versions"]:
+        language = LANG_DISPLAY.get(version["lang"], version["lang"])
+        filename = os.path.basename(version["path"])
+        rows.append(
+            f"| v{version['version']} | {version['date']} | {language} | "
+            f"{version['runtime']} ({version['runtime_pct']}) | "
+            f"{version['memory']} ({version['memory_pct']}) | "
+            f"[Code]({filename}) |"
+        )
+    history = "\n".join(rows)
+    content = f"""# [{record['qid']}] {record['title']}
+
+- **Difficulty:** {record['difficulty']}
+- **Latest accepted:** {record['date']}
+- **Resubmissions (>48 hours):** {record['resubmissions']}
+
+### Submission history
+
+Each version holds the latest accepted submission in its 48-hour window.
+A submission more than 48 hours after that window began starts a new version.
+
+| Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+{history}
+
+---
+
+{description}
+"""
+    if content != previous:
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(content)
+
+
 def main():
     subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
     subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
 
-    subs = get_submission_list()
-    unique_subs = {}
-    for s in subs:
-        slug = s["titleSlug"]
-        if slug not in unique_subs:
-            unique_subs[slug] = s
-
-    ordered_subs = sorted(unique_subs.values(), key=lambda x: int(x["timestamp"]))
+    grouped = group_versions(get_submission_list())
+    if not grouped:
+        raise RuntimeError("No accepted submissions returned; refusing to replace archive data")
+    previous_by_slug = previous_records()
     problems_metadata = []
-
-    for sub in ordered_subs:
-        details = get_submission_details(sub["id"])
-        if not details:
+    for slug, windows in grouped.items():
+        previous = previous_by_slug.get(slug)
+        if (not REFRESH_UNCHANGED and has_same_versions(windows, previous) and
+                saved_files_exist(previous)):
+            problems_metadata.append(previous)
             continue
+        versions = []
+        code_by_path = {}
+        question = None
+        for number, window in enumerate(windows, start=1):
+            sub = window["submission"]
+            details = get_submission_details(sub["id"])
+            if not details or not details.get("question") or details.get("code") is None:
+                raise RuntimeError(f"Could not load submission {sub['id']} for {slug}")
+            question = details["question"]
+            qid = str(question["questionFrontendId"]).zfill(4)
+            difficulty = question["difficulty"].capitalize()
+            lang = sub["lang"]
+            ext = EXTENSIONS.get(lang, "txt")
+            timestamp = int(sub["timestamp"])
+            date = datetime.fromtimestamp(timestamp, timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+            path = f"src/{difficulty.lower()}/{qid}-{slug}/solution-v{number}.{ext}"
+            runtime = details.get("runtimeDisplay") or f"{details.get('runtime', 0)}ms"
+            memory = details.get("memoryDisplay") or f"{round((details.get('memory') or 0) / (1024*1024), 1)}MB"
+            version = {
+                "version": number, "submission_id": str(sub["id"]),
+                "timestamp": timestamp, "date": date, "lang": lang, "ext": ext,
+                "runtime": runtime,
+                "runtime_pct": f"{round(details.get('runtimePercentile') or 0, 1)}%",
+                "memory": memory,
+                "memory_pct": f"{round(details.get('memoryPercentile') or 0, 1)}%",
+                "path": path,
+            }
+            versions.append(version)
+            code_by_path[path] = details["code"]
 
-        q = details["question"]
-        qid = q["questionFrontendId"].zfill(4)
-        title = q["title"]
-        slug = q["titleSlug"]
-        difficulty = q["difficulty"].capitalize()
-        diff_lower = difficulty.lower()
-        code = details["code"]
-        lang = sub["lang"]
-        ext = EXTENSIONS.get(lang, "txt")
+        latest = versions[-1]
+        record = {
+            "qid": qid, "title": question["title"], "slug": slug,
+            "difficulty": difficulty, "resubmissions": len(versions) - 1,
+            "versions": versions,
+            **{key: latest[key] for key in (
+                "lang", "ext", "runtime", "runtime_pct", "memory",
+                "memory_pct", "date", "timestamp")},
+        }
+        save_problem(record, question, code_by_path, previous)
+        problems_metadata.append(record)
+        time.sleep(0.3)
 
-        sub_time = int(sub["timestamp"])
-        formatted_date = datetime.fromtimestamp(sub_time).strftime("%Y-%m-%d")
-
-        r_disp = details.get("runtimeDisplay") or f"{details.get('runtime', 0)}ms"
-        r_pct = f"{round(details.get('runtimePercentile') or 0, 1)}%"
-        m_disp = details.get("memoryDisplay") or f"{round((details.get('memory') or 0) / (1024*1024), 1)}MB"
-        m_pct = f"{round(details.get('memoryPercentile') or 0, 1)}%"
-
-        problems_metadata.append({
-            "qid": qid,
-            "title": title,
-            "slug": slug,
-            "difficulty": difficulty,
-            "lang": lang,
-            "ext": ext,
-            "runtime": r_disp,
-            "runtime_pct": r_pct,
-            "memory": m_disp,
-            "memory_pct": m_pct,
-            "date": formatted_date
-        })
-
-        folder_name = f"{qid}-{slug}"
-        target_dir = os.path.join("src", diff_lower, folder_name)
-        os.makedirs(target_dir, exist_ok=True)
-
-        solution_path = os.path.join(target_dir, f"solution.{ext}")
-        problem_desc_path = os.path.join(target_dir, "README.md")
-
-        # Process if file does not exist, or if OVERWRITE toggle is enabled
-        if not os.path.exists(solution_path) or OVERWRITE:
-            with open(solution_path, "w", encoding="utf-8") as f:
-                f.write(code)
-
-            clean_html = re.sub(r'<[^>]+>', '', q.get("content", "") or "")
-            problem_readme = f"""# [{qid}] {title}
-
-**Difficulty:** {difficulty}  
-**Date Solved:** {formatted_date}  
-**Runtime:** {r_disp} ({r_pct})  
-**Memory:** {m_disp} ({m_pct})  
-
----
-
-### Description
-{clean_html.strip()}
-"""
-            with open(problem_desc_path, "w", encoding="utf-8") as f:
-                f.write(problem_readme)
-
-            subprocess.run(["git", "add", target_dir], check=True)
-            diff_check = subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode
-            if diff_check != 0:
-                commit_msg = f"LeetCode Sync: {qid} | {title} | {formatted_date} | Time: {r_disp} ({r_pct}) | Memory: {m_disp} ({m_pct})"
-                subprocess.run(["git", "commit", "-m", commit_msg], check=True)
-                time.sleep(0.3)
-
+    problems_metadata.sort(key=lambda p: int(p["qid"]))
     update_readme(problems_metadata)
     update_site_data(problems_metadata)
-    diff = subprocess.run(["git", "diff", "--quiet", "README.md"]).returncode
-    if diff != 0:
-        subprocess.run(["git", "add", "README.md"], check=True)
-        subprocess.run(["git", "commit", "-m", "docs: update solutions index table [skip ci]"], check=True)
-
-    if subprocess.run(["git", "status", "--porcelain", "--", "docs/data.json"], capture_output=True, text=True, check=True).stdout:
-        subprocess.run(["git", "add", "docs/data.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "docs: update website data [skip ci]"], check=True)
+    subprocess.run(["git", "add", "--", "src", "README.md", "docs/data.json"], check=True)
+    if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode:
+        subprocess.run(["git", "commit", "-m", "sync: archive accepted submission versions [skip ci]"], check=True)
 
 if __name__ == "__main__":
     main()

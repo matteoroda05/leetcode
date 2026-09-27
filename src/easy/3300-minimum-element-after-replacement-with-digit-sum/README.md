@@ -1,7 +1,13 @@
 # [3300] Minimum Element After Replacement With Digit Sum
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-05-29  
+**Runtime:** 6 ms (32.9%)  
+**Memory:** 19.1 MB (91.3%)  
 
+---
+
+### Description
 You are given an integer array nums.
 
 You replace each element in nums with the sum of its digits.

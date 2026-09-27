@@ -1,7 +1,13 @@
 # [2839] Check if Strings Can be Made Equal With Operations I
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-08-25  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 19.2 MB (90.7%)  
 
+---
+
+### Description
 You are given two strings s1 and s2, both of length 4, consisting of lowercase English letters.
 
 You can apply the following operation on any of the two strings any number of times:

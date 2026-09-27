@@ -1,7 +1,13 @@
 # [0121] Best Time to Buy and Sell Stock
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-09-24  
+**Runtime:** 29 ms (86.2%)  
+**Memory:** 28.7 MB (43.3%)  
 
+---
+
+### Description
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
 You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.

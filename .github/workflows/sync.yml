@@ -2,6 +2,12 @@ name: Granular LeetCode Sync
 
 on:
   workflow_dispatch:
+    inputs:
+      overwrite:
+        description: 'Overwrite existing solution files & single problem READMEs?'
+        required: true
+        type: boolean
+        default: false
   schedule:
     - cron: "0 8 * * 6"
 
@@ -28,6 +34,7 @@ jobs:
         env:
           LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
           LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          OVERWRITE_EXISTING: ${{ inputs.overwrite || 'false' }}
         run: python scripts/sync.py
 
       - name: Push Commits

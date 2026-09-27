@@ -1,7 +1,13 @@
 # [3069] Distribute Elements Into Two Arrays I
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-08-20  
+**Runtime:** 1 ms (27.9%)  
+**Memory:** 19.2 MB (64.5%)  
 
+---
+
+### Description
 You are given a 1-indexed array of distinct integers nums of length n.
 
 You need to distribute all the elements of nums between two arrays arr1 and arr2 using n operations. In the first operation, append nums[1] to arr1. In the second operation, append nums[2] to arr2. Afterwards, in the ith operation:

@@ -1,7 +1,13 @@
 # [1488] Avoid Flood in The City
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2025-11-03  
+**Runtime:** 160 ms (90.8%)  
+**Memory:** 35.1 MB (47.7%)  
 
+---
+
+### Description
 Your country has 109 lakes. Initially, all the lakes are empty, but when it rains over the nth lake, the nth lake becomes full of water. If it rains over a lake that is full of water, there will be a flood. Your goal is to avoid floods in any lake.
 
 Given an integer array rains where:

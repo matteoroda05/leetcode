@@ -1,7 +1,13 @@
 # [0997] Find the Town Judge
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2025-06-13  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 19.6 MB (100.0%)  
 
+---
+
+### Description
 In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
 
 If the town judge exists, then:

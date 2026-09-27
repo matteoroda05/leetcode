@@ -101,14 +101,61 @@ def get_submission_details(submission_id):
         return data["submissionDetails"]
     return None
 
+from collections import Counter
+import urllib.parse
+
 def update_readme(problems_data):
     stats = {"easy": 0, "medium": 0, "hard": 0}
+    lang_counter = Counter()
+
     for p in problems_data:
         diff = p["difficulty"].lower()
         if diff in stats:
             stats[diff] += 1
+        
+        lang_display_name = LANG_DISPLAY.get(p["lang"], p["lang"].capitalize())
+        lang_counter[lang_display_name] += 1
+
     total = stats["easy"] + stats["medium"] + stats["hard"]
 
+    # Generate QuickChart dynamic pie chart URL for coding languages
+    if lang_counter:
+        labels = list(lang_counter.keys())
+        data_values = list(lang_counter.values())
+        chart_config = {
+            "type": "doughnut",
+            "data": {
+                "labels": labels,
+                "datasets": [{
+                    "data": data_values,
+                    "backgroundColor": [
+                        "#3572A5", "#F1E05A", "#4F5D95", "#00ADD8", 
+                        "#DEA584", "#B07219", "#E34C26", "#563D7C"
+                    ][:len(labels)]
+                }]
+            },
+            "options": {
+                "plugins": {
+                    "legend": {"position": "bottom", "labels": {"fontColor": "#ffffff", "fontSize": 12}},
+                    "doughnutlabel": {
+                        "labels": [{"text": str(total), "font": {"size": 20}}, {"text": "Solved"}]
+                    }
+                }
+            }
+        }
+        encoded_chart = urllib.parse.quote(json.dumps(chart_config))
+        chart_url = f"https://quickchart.io/chart?c={encoded_chart}&w=300&h=260&bkg=%2318181b"
+        chart_img_md = f'<img src="{chart_url}" alt="Language Breakdown" width="280" />'
+    else:
+        chart_img_md = "*No submissions indexed yet.*"
+
+    # Build language stats badge row
+    lang_badges = " ".join([
+        f'`{lang}: {count} ({round((count / total) * 100, 1)}%)`'
+        for lang, count in lang_counter.most_common()
+    ]) if total > 0 else "N/A"
+
+    # Generate the table rows
     table_rows = []
     for p in sorted(problems_data, key=lambda x: int(x["qid"])):
         qid = p["qid"]
@@ -132,16 +179,40 @@ def update_readme(problems_data):
 
     readme_content = f"""<div align="center">
 
-# 💻 LeetCode Solutions
+# 💻 LeetCode Solutions & Analytics
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/Matteoroda/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/matteoroda05)
 
 Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 ---
 
-### 📊 Progress Overview
+## 📊 LeetCode Stats
+
+<div align="center">
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Matteoroda?theme=dark&font=Nunito&ext=heatmap)](https://leetcode.com/u/Matteoroda/)
+
+</div>
+
+---
+
+## 🛠️ Languages Used
+
+<div align="center">
+
+{chart_img_md}
+
+<br/>
+
+{lang_badges}
+
+</div>
+
+---
+
+### 📈 Local Progress Breakdown
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏆 Total Solved |
 | :---: | :---: | :---: | :---: |
@@ -160,7 +231,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 ---
 
 <div align="center">
-<sub>Automatically synced and updated via GitHub Actions.</sub>
+<sub>Automatically synced and updated via custom GitHub Actions engine.</sub>
 </div>
 """
     with open("README.md", "w", encoding="utf-8") as f:

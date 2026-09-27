@@ -1,7 +1,13 @@
 # [0200] Number of Islands
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-09-25  
+**Runtime:** 230 ms (87.6%)  
+**Memory:** 21.5 MB (92.6%)  
 
+---
+
+### Description
 Given an m x n 2D binary grid grid which represents a map of &#39;1&#39;s (land) and &#39;0&#39;s (water), return the number of islands.
 
 An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.

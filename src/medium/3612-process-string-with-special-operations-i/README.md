@@ -1,7 +1,13 @@
 # [3612] Process String with Special Operations I
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-06-16  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 23.3 MB (85.0%)  
 
+---
+
+### Description
 You are given a string s consisting of lowercase English letters and the special characters: *, #, and %.
 
 Build a new string result by processing s according to the following rules from left to right:

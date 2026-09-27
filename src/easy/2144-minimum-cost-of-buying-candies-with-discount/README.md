@@ -1,7 +1,13 @@
 # [2144] Minimum Cost of Buying Candies With Discount
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
+**Date Solved:** 2026-06-01  
+**Runtime:** 0 ms (100.0%)  
+**Memory:** 19.2 MB (88.2%)  
 
+---
+
+### Description
 A shop is selling candies at a discount. For every two candies sold, the shop gives a third candy for free.
 
 The customer can choose any candy to take away for free as long as the cost of the chosen candy is less than or equal to the minimum cost of the two candies bought.

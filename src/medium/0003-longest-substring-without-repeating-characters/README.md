@@ -1,7 +1,13 @@
 # [0003] Longest Substring Without Repeating Characters
 
-**Difficulty:** Medium
+**Difficulty:** Medium  
+**Date Solved:** 2026-08-15  
+**Runtime:** 155 ms (94.3%)  
+**Memory:** 20 MB (36.3%)  
 
+---
+
+### Description
 Given a string s, find the length of the longest substring without duplicate characters.
 
 &nbsp;

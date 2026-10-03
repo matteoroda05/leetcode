@@ -92,6 +92,36 @@
       "timestamp": 1762170145
     },
     {
+      "qid": "0009",
+      "title": "Palindrome Number",
+      "slug": "palindrome-number",
+      "difficulty": "Easy",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2160117648",
+          "timestamp": 1790943274,
+          "date": "2026-10-02 12:14 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.4 MB",
+          "memory_pct": "19.3%",
+          "path": "src/easy/0009-palindrome-number/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.4 MB",
+      "memory_pct": "19.3%",
+      "date": "2026-10-02 12:14 UTC",
+      "timestamp": 1790943274
+    },
+    {
       "qid": "0011",
       "title": "Container With Most Water",
       "slug": "container-with-most-water",
@@ -223,6 +253,36 @@
       "memory_pct": "24.8%",
       "date": "2026-09-25 21:40 UTC",
       "timestamp": 1790372421
+    },
+    {
+      "qid": "0022",
+      "title": "Generate Parentheses",
+      "slug": "generate-parentheses",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2160076700",
+          "timestamp": 1790939912,
+          "date": "2026-10-02 11:18 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "3 ms",
+          "runtime_pct": "30.5%",
+          "memory": "19.4 MB",
+          "memory_pct": "37.0%",
+          "path": "src/medium/0022-generate-parentheses/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "3 ms",
+      "runtime_pct": "30.5%",
+      "memory": "19.4 MB",
+      "memory_pct": "37.0%",
+      "date": "2026-10-02 11:18 UTC",
+      "timestamp": 1790939912
     },
     {
       "qid": "0026",

@@ -24,11 +24,11 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 <div align="center">
 
-<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B38%2C%202%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2245%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B41%2C%202%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2248%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
 
 <br/>
 
-`Python3: 38 (84.4%)` `Python: 4 (8.9%)` `C: 2 (4.4%)` `C++: 1 (2.2%)`
+`Python3: 41 (85.4%)` `Python: 4 (8.3%)` `C: 2 (4.2%)` `C++: 1 (2.1%)`
 
 </div>
 
@@ -38,7 +38,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏆 Total Solved |
 | :---: | :---: | :---: | :---: |
-| **19** | **23** | **3** | **45** |
+| **21** | **24** | **3** | **48** |
 
 **2 problems revisited more than 48 hours later.** A resubmission is a new
 48-hour version window; submissions within the same window update that version.
@@ -66,12 +66,15 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [v1](src/medium/0056-merge-intervals/solution-v1.py) | Python3 | `Medium` | 11 ms (26.0%) | 23.2 MB (30.2%) | 2026-09-24 08:03 UTC | 0 |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [v1](src/easy/0070-climbing-stairs/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.5 MB (18.5%) | 2026-09-02 14:12 UTC | 0 |
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [v1](src/medium/0080-remove-duplicates-from-sorted-array-ii/solution-v1.py) | Python3 | `Medium` | 6 ms (86.7%) | 21 MB (98.2%) | 2026-09-25 19:32 UTC | 0 |
+| 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [v1](src/easy/0104-maximum-depth-of-binary-tree/solution-v1.py) | Python3 | `Easy` | 2 ms (55.4%) | 22.7 MB (24.6%) | 2026-10-04 20:02 UTC | 0 |
+| 0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [v1](src/easy/0112-path-sum/solution-v1.py) | Python3 | `Easy` | 3 ms (28.0%) | 20.4 MB (5.1%) | 2026-10-03 19:59 UTC | 0 |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [v1](src/easy/0121-best-time-to-buy-and-sell-stock/solution-v1.py) | Python3 | `Easy` | 29 ms (86.2%) | 28.7 MB (43.3%) | 2026-09-24 10:11 UTC | 0 |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [v1](src/medium/0122-best-time-to-buy-and-sell-stock-ii/solution-v1.py) | Python3 | `Medium` | 3 ms (60.4%) | 20.1 MB (98.0%) | 2026-09-24 10:42 UTC | 0 |
 | 0123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [v1](src/hard/0123-best-time-to-buy-and-sell-stock-iii/solution-v1.py) | Python3 | `Hard` | 120 ms (52.3%) | 31.2 MB (41.8%) | 2026-09-24 14:05 UTC | 0 |
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [v1](src/medium/0138-copy-list-with-random-pointer/solution-v1.py) | Python3 | `Medium` | 49 ms (46.8%) | 19.9 MB (98.5%) | 2026-09-24 14:55 UTC | 0 |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [v2](src/medium/0200-number-of-islands/solution-v2.py) | Python3 | `Medium` | 230 ms (87.6%) | 21.5 MB (92.5%) | 2026-09-25 16:46 UTC | 1 |
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [v1](src/medium/0207-course-schedule/solution-v1.py) | Python3 | `Medium` | 7 ms (44.3%) | 21.3 MB (25.9%) | 2026-09-26 21:41 UTC | 0 |
+| 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [v1](src/medium/0678-valid-parenthesis-string/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.1 MB (90.0%) | 2026-10-04 21:02 UTC | 0 |
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [v1](src/medium/0875-koko-eating-bananas/solution-v1.py) | Python3 | `Medium` | 255 ms (5.1%) | 20.8 MB (13.7%) | 2026-08-15 11:30 UTC | 0 |
 | 0877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [v1](src/medium/0877-stone-game/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.2 MB (68.4%) | 2026-08-24 19:27 UTC | 0 |
 | 0997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [v1](src/easy/0997-find-the-town-judge/solution-v1.c) | C | `Easy` | 0 ms (100.0%) | 19.6 MB (100.0%) | 2025-06-13 19:14 UTC | 0 |

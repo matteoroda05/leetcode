@@ -465,6 +465,66 @@
       "timestamp": 1790364730
     },
     {
+      "qid": "0104",
+      "title": "Maximum Depth of Binary Tree",
+      "slug": "maximum-depth-of-binary-tree",
+      "difficulty": "Easy",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2162500411",
+          "timestamp": 1791144156,
+          "date": "2026-10-04 20:02 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "2 ms",
+          "runtime_pct": "55.4%",
+          "memory": "22.7 MB",
+          "memory_pct": "24.6%",
+          "path": "src/easy/0104-maximum-depth-of-binary-tree/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "2 ms",
+      "runtime_pct": "55.4%",
+      "memory": "22.7 MB",
+      "memory_pct": "24.6%",
+      "date": "2026-10-04 20:02 UTC",
+      "timestamp": 1791144156
+    },
+    {
+      "qid": "0112",
+      "title": "Path Sum",
+      "slug": "path-sum",
+      "difficulty": "Easy",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2161449121",
+          "timestamp": 1791057580,
+          "date": "2026-10-03 19:59 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "3 ms",
+          "runtime_pct": "28.0%",
+          "memory": "20.4 MB",
+          "memory_pct": "5.1%",
+          "path": "src/easy/0112-path-sum/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "3 ms",
+      "runtime_pct": "28.0%",
+      "memory": "20.4 MB",
+      "memory_pct": "5.1%",
+      "date": "2026-10-03 19:59 UTC",
+      "timestamp": 1791057580
+    },
+    {
       "qid": "0121",
       "title": "Best Time to Buy and Sell Stock",
       "slug": "best-time-to-buy-and-sell-stock",
@@ -656,6 +716,36 @@
       "memory_pct": "25.9%",
       "date": "2026-09-26 21:41 UTC",
       "timestamp": 1790458865
+    },
+    {
+      "qid": "0678",
+      "title": "Valid Parenthesis String",
+      "slug": "valid-parenthesis-string",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2162528598",
+          "timestamp": 1791147733,
+          "date": "2026-10-04 21:02 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.1 MB",
+          "memory_pct": "90.0%",
+          "path": "src/medium/0678-valid-parenthesis-string/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.1 MB",
+      "memory_pct": "90.0%",
+      "date": "2026-10-04 21:02 UTC",
+      "timestamp": 1791147733
     },
     {
       "qid": "0875",

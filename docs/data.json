@@ -718,6 +718,36 @@
       "timestamp": 1790458865
     },
     {
+      "qid": "0274",
+      "title": "H-Index",
+      "slug": "h-index",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2167371828",
+          "timestamp": 1791556653,
+          "date": "2026-10-09 14:37 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.7 MB",
+          "memory_pct": "6.5%",
+          "path": "src/medium/0274-h-index/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.7 MB",
+      "memory_pct": "6.5%",
+      "date": "2026-10-09 14:37 UTC",
+      "timestamp": 1791556653
+    },
+    {
       "qid": "0678",
       "title": "Valid Parenthesis String",
       "slug": "valid-parenthesis-string",
@@ -746,6 +776,36 @@
       "memory_pct": "90.0%",
       "date": "2026-10-04 21:02 UTC",
       "timestamp": 1791147733
+    },
+    {
+      "qid": "0856",
+      "title": "Score of Parentheses",
+      "slug": "score-of-parentheses",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2163599253",
+          "timestamp": 1791234231,
+          "date": "2026-10-05 21:03 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "84.4%",
+          "path": "src/medium/0856-score-of-parentheses/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.2 MB",
+      "memory_pct": "84.4%",
+      "date": "2026-10-05 21:03 UTC",
+      "timestamp": 1791234231
     },
     {
       "qid": "0875",
@@ -806,6 +866,36 @@
       "memory_pct": "68.4%",
       "date": "2026-08-24 19:27 UTC",
       "timestamp": 1787599633
+    },
+    {
+      "qid": "0921",
+      "title": "Minimum Add to Make Parentheses Valid",
+      "slug": "minimum-add-to-make-parentheses-valid",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2163965077",
+          "timestamp": 1791270946,
+          "date": "2026-10-06 07:15 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.3 MB",
+          "memory_pct": "49.5%",
+          "path": "src/medium/0921-minimum-add-to-make-parentheses-valid/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.3 MB",
+      "memory_pct": "49.5%",
+      "date": "2026-10-06 07:15 UTC",
+      "timestamp": 1791270946
     },
     {
       "qid": "0997",

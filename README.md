@@ -24,11 +24,11 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 <div align="center">
 
-<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B41%2C%202%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2248%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B44%2C%202%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2251%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
 
 <br/>
 
-`Python3: 41 (85.4%)` `Python: 4 (8.3%)` `C: 2 (4.2%)` `C++: 1 (2.1%)`
+`Python3: 44 (86.3%)` `Python: 4 (7.8%)` `C: 2 (3.9%)` `C++: 1 (2.0%)`
 
 </div>
 
@@ -38,7 +38,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏆 Total Solved |
 | :---: | :---: | :---: | :---: |
-| **21** | **24** | **3** | **48** |
+| **21** | **27** | **3** | **51** |
 
 **2 problems revisited more than 48 hours later.** A resubmission is a new
 48-hour version window; submissions within the same window update that version.
@@ -74,9 +74,12 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [v1](src/medium/0138-copy-list-with-random-pointer/solution-v1.py) | Python3 | `Medium` | 49 ms (46.8%) | 19.9 MB (98.5%) | 2026-09-24 14:55 UTC | 0 |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [v2](src/medium/0200-number-of-islands/solution-v2.py) | Python3 | `Medium` | 230 ms (87.6%) | 21.5 MB (92.5%) | 2026-09-25 16:46 UTC | 1 |
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [v1](src/medium/0207-course-schedule/solution-v1.py) | Python3 | `Medium` | 7 ms (44.3%) | 21.3 MB (25.9%) | 2026-09-26 21:41 UTC | 0 |
+| 0274 | [H-Index](https://leetcode.com/problems/h-index/) | [v1](src/medium/0274-h-index/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.7 MB (6.5%) | 2026-10-09 14:37 UTC | 0 |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [v1](src/medium/0678-valid-parenthesis-string/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.1 MB (90.0%) | 2026-10-04 21:02 UTC | 0 |
+| 0856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [v1](src/medium/0856-score-of-parentheses/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.2 MB (84.4%) | 2026-10-05 21:03 UTC | 0 |
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [v1](src/medium/0875-koko-eating-bananas/solution-v1.py) | Python3 | `Medium` | 255 ms (5.1%) | 20.8 MB (13.7%) | 2026-08-15 11:30 UTC | 0 |
 | 0877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [v1](src/medium/0877-stone-game/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.2 MB (68.4%) | 2026-08-24 19:27 UTC | 0 |
+| 0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [v1](src/medium/0921-minimum-add-to-make-parentheses-valid/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.3 MB (49.5%) | 2026-10-06 07:15 UTC | 0 |
 | 0997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [v1](src/easy/0997-find-the-town-judge/solution-v1.c) | C | `Easy` | 0 ms (100.0%) | 19.6 MB (100.0%) | 2025-06-13 19:14 UTC | 0 |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [v1](src/easy/1200-minimum-absolute-difference/solution-v1.py) | Python | `Easy` | 63 ms (91.7%) | 21.6 MB (44.9%) | 2026-01-26 11:15 UTC | 0 |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | [v1](src/medium/1461-check-if-a-string-contains-all-binary-codes-of-size-k/solution-v1.py) | Python | `Medium` | 229 ms (94.6%) | 63.2 MB (67.9%) | 2026-02-23 12:44 UTC | 0 |

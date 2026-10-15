@@ -1,8 +1,8 @@
 # [0013] Roman to Integer
 
 - **Difficulty:** Easy
-- **Latest accepted:** 2026-03-10 22:12 UTC
-- **Resubmissions (>48 hours):** 0
+- **Latest accepted:** 2026-10-11 20:40 UTC
+- **Resubmissions (>48 hours):** 1
 
 ### Submission history
 
@@ -11,7 +11,8 @@ A submission more than 48 hours after that window began starts a new version.
 
 | Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| v1 | 2026-03-10 22:12 UTC | Python | 5 ms (82.0%) | 12.5 MB (22.3%) | [Code](solution-v1.py) |
+| v1 | 2026-03-10 22:12 UTC | Python | 5 ms (81.8%) | 12.5 MB (22.3%) | [Code](solution-v1.py) |
+| v2 | 2026-10-11 20:40 UTC | Python | 12 ms (37.3%) | 12.4 MB (58.9%) | [Code](solution-v2.py) |
 
 ---
 

@@ -24,11 +24,11 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 <div align="center">
 
-<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B44%2C%202%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2251%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B50%2C%202%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2257%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
 
 <br/>
 
-`Python3: 44 (86.3%)` `Python: 4 (7.8%)` `C: 2 (3.9%)` `C++: 1 (2.0%)`
+`Python3: 50 (87.7%)` `Python: 4 (7.0%)` `C: 2 (3.5%)` `C++: 1 (1.8%)`
 
 </div>
 
@@ -38,9 +38,9 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏆 Total Solved |
 | :---: | :---: | :---: | :---: |
-| **21** | **27** | **3** | **51** |
+| **22** | **32** | **3** | **57** |
 
-**2 problems revisited more than 48 hours later.** A resubmission is a new
+**4 problems revisited more than 48 hours later.** A resubmission is a new
 48-hour version window; submissions within the same window update that version.
 
 ---
@@ -52,11 +52,14 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | # | Title | Solution | Language | Difficulty | Runtime | Memory | Date Solved | Resubmission |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [v1](src/easy/0001-two-sum/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 20.9 MB (7.6%) | 2026-08-16 14:39 UTC | 0 |
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [v1](src/medium/0002-add-two-numbers/solution-v1.py) | Python3 | `Medium` | 3 ms (65.6%) | 19.2 MB (96.1%) | 2026-10-13 17:07 UTC | 0 |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [v1](src/medium/0003-longest-substring-without-repeating-characters/solution-v1.py) | Python3 | `Medium` | 155 ms (95.9%) | 20 MB (37.0%) | 2026-08-15 14:05 UTC | 0 |
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [v1](src/hard/0004-median-of-two-sorted-arrays/solution-v1.c) | C | `Hard` | 0 ms (100.0%) | 11.2 MB (100.0%) | 2025-11-03 11:42 UTC | 0 |
+| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [v1](src/medium/0007-reverse-integer/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.4 MB (17.4%) | 2026-10-14 13:46 UTC | 0 |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [v1](src/easy/0009-palindrome-number/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.4 MB (19.3%) | 2026-10-02 12:14 UTC | 0 |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [v2](src/medium/0011-container-with-most-water/solution-v2.py) | Python3 | `Medium` | 44 ms (94.1%) | 29.7 MB (15.3%) | 2026-09-25 21:27 UTC | 1 |
-| 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [v1](src/easy/0013-roman-to-integer/solution-v1.py) | Python | `Easy` | 5 ms (82.0%) | 12.5 MB (22.3%) | 2026-03-10 22:12 UTC | 0 |
+| 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [v2](src/easy/0013-roman-to-integer/solution-v2.py) | Python | `Easy` | 12 ms (37.3%) | 12.4 MB (58.9%) | 2026-10-11 20:40 UTC | 1 |
+| 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [v1](src/easy/0014-longest-common-prefix/solution-v1.py) | Python3 | `Easy` | 1 ms (30.0%) | 19.4 MB (33.1%) | 2026-10-11 20:53 UTC | 0 |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | [v1](src/medium/0015-3sum/solution-v1.py) | Python3 | `Medium` | 1026 ms (15.7%) | 24.4 MB (5.3%) | 2026-08-16 17:14 UTC | 0 |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [v1](src/easy/0020-valid-parentheses/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.3 MB (24.8%) | 2026-09-25 21:40 UTC | 0 |
 | 0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [v1](src/medium/0022-generate-parentheses/solution-v1.py) | Python3 | `Medium` | 3 ms (30.5%) | 19.4 MB (37.0%) | 2026-10-02 11:18 UTC | 0 |
@@ -66,15 +69,18 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [v1](src/medium/0056-merge-intervals/solution-v1.py) | Python3 | `Medium` | 11 ms (26.0%) | 23.2 MB (30.2%) | 2026-09-24 08:03 UTC | 0 |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [v1](src/easy/0070-climbing-stairs/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.5 MB (18.5%) | 2026-09-02 14:12 UTC | 0 |
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [v1](src/medium/0080-remove-duplicates-from-sorted-array-ii/solution-v1.py) | Python3 | `Medium` | 6 ms (86.7%) | 21 MB (98.2%) | 2026-09-25 19:32 UTC | 0 |
+| 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [v1](src/medium/0098-validate-binary-search-tree/solution-v1.py) | Python3 | `Medium` | 1 ms (45.9%) | 21 MB (22.9%) | 2026-10-15 13:24 UTC | 0 |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [v1](src/easy/0104-maximum-depth-of-binary-tree/solution-v1.py) | Python3 | `Easy` | 2 ms (55.4%) | 22.7 MB (24.6%) | 2026-10-04 20:02 UTC | 0 |
 | 0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [v1](src/easy/0112-path-sum/solution-v1.py) | Python3 | `Easy` | 3 ms (28.0%) | 20.4 MB (5.1%) | 2026-10-03 19:59 UTC | 0 |
-| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [v1](src/easy/0121-best-time-to-buy-and-sell-stock/solution-v1.py) | Python3 | `Easy` | 29 ms (86.2%) | 28.7 MB (43.3%) | 2026-09-24 10:11 UTC | 0 |
+| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [v2](src/easy/0121-best-time-to-buy-and-sell-stock/solution-v2.py) | Python3 | `Easy` | 21 ms (93.4%) | 28.6 MB (77.3%) | 2026-10-11 20:40 UTC | 1 |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [v1](src/medium/0122-best-time-to-buy-and-sell-stock-ii/solution-v1.py) | Python3 | `Medium` | 3 ms (60.4%) | 20.1 MB (98.0%) | 2026-09-24 10:42 UTC | 0 |
 | 0123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [v1](src/hard/0123-best-time-to-buy-and-sell-stock-iii/solution-v1.py) | Python3 | `Hard` | 120 ms (52.3%) | 31.2 MB (41.8%) | 2026-09-24 14:05 UTC | 0 |
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [v1](src/medium/0138-copy-list-with-random-pointer/solution-v1.py) | Python3 | `Medium` | 49 ms (46.8%) | 19.9 MB (98.5%) | 2026-09-24 14:55 UTC | 0 |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [v2](src/medium/0200-number-of-islands/solution-v2.py) | Python3 | `Medium` | 230 ms (87.6%) | 21.5 MB (92.5%) | 2026-09-25 16:46 UTC | 1 |
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [v1](src/medium/0207-course-schedule/solution-v1.py) | Python3 | `Medium` | 7 ms (44.3%) | 21.3 MB (25.9%) | 2026-09-26 21:41 UTC | 0 |
 | 0274 | [H-Index](https://leetcode.com/problems/h-index/) | [v1](src/medium/0274-h-index/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.7 MB (6.5%) | 2026-10-09 14:37 UTC | 0 |
+| 0380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [v1](src/medium/0380-insert-delete-getrandom-o1/solution-v1.py) | Python3 | `Medium` | 84 ms (89.6%) | 57 MB (45.3%) | 2026-10-10 20:21 UTC | 0 |
+| 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [v1](src/medium/0560-subarray-sum-equals-k/solution-v1.py) | Python3 | `Medium` | 35 ms (48.1%) | 21.9 MB (58.2%) | 2026-10-14 15:39 UTC | 0 |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [v1](src/medium/0678-valid-parenthesis-string/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.1 MB (90.0%) | 2026-10-04 21:02 UTC | 0 |
 | 0856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [v1](src/medium/0856-score-of-parentheses/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.2 MB (84.4%) | 2026-10-05 21:03 UTC | 0 |
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [v1](src/medium/0875-koko-eating-bananas/solution-v1.py) | Python3 | `Medium` | 255 ms (5.1%) | 20.8 MB (13.7%) | 2026-08-15 11:30 UTC | 0 |

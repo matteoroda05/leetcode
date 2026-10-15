@@ -1,8 +1,8 @@
 # [0121] Best Time to Buy and Sell Stock
 
 - **Difficulty:** Easy
-- **Latest accepted:** 2026-09-24 10:11 UTC
-- **Resubmissions (>48 hours):** 0
+- **Latest accepted:** 2026-10-11 20:40 UTC
+- **Resubmissions (>48 hours):** 1
 
 ### Submission history
 
@@ -11,7 +11,8 @@ A submission more than 48 hours after that window began starts a new version.
 
 | Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| v1 | 2026-09-24 10:11 UTC | Python3 | 29 ms (86.2%) | 28.7 MB (43.3%) | [Code](solution-v1.py) |
+| v1 | 2026-09-24 10:11 UTC | Python3 | 29 ms (86.3%) | 28.7 MB (43.5%) | [Code](solution-v1.py) |
+| v2 | 2026-10-11 20:40 UTC | Python3 | 21 ms (93.4%) | 28.6 MB (77.3%) | [Code](solution-v2.py) |
 
 ---
 

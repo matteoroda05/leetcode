@@ -24,11 +24,11 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 <div align="center">
 
-<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B50%2C%202%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2257%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B52%2C%202%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2259%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
 
 <br/>
 
-`Python3: 50 (87.7%)` `Python: 4 (7.0%)` `C: 2 (3.5%)` `C++: 1 (1.8%)`
+`Python3: 52 (88.1%)` `Python: 4 (6.8%)` `C: 2 (3.4%)` `C++: 1 (1.7%)`
 
 </div>
 
@@ -38,7 +38,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏆 Total Solved |
 | :---: | :---: | :---: | :---: |
-| **22** | **32** | **3** | **57** |
+| **22** | **34** | **3** | **59** |
 
 **4 problems revisited more than 48 hours later.** A resubmission is a new
 48-hour version window; submissions within the same window update that version.
@@ -69,7 +69,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [v1](src/medium/0056-merge-intervals/solution-v1.py) | Python3 | `Medium` | 11 ms (26.0%) | 23.2 MB (30.2%) | 2026-09-24 08:03 UTC | 0 |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [v1](src/easy/0070-climbing-stairs/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.5 MB (18.5%) | 2026-09-02 14:12 UTC | 0 |
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [v1](src/medium/0080-remove-duplicates-from-sorted-array-ii/solution-v1.py) | Python3 | `Medium` | 6 ms (86.7%) | 21 MB (98.2%) | 2026-09-25 19:32 UTC | 0 |
-| 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [v1](src/medium/0098-validate-binary-search-tree/solution-v1.py) | Python3 | `Medium` | 1 ms (45.9%) | 21 MB (22.9%) | 2026-10-15 13:24 UTC | 0 |
+| 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [v1](src/medium/0098-validate-binary-search-tree/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 20.9 MB (47.2%) | 2026-10-16 18:51 UTC | 0 |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [v1](src/easy/0104-maximum-depth-of-binary-tree/solution-v1.py) | Python3 | `Easy` | 2 ms (55.4%) | 22.7 MB (24.6%) | 2026-10-04 20:02 UTC | 0 |
 | 0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [v1](src/easy/0112-path-sum/solution-v1.py) | Python3 | `Easy` | 3 ms (28.0%) | 20.4 MB (5.1%) | 2026-10-03 19:59 UTC | 0 |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [v2](src/easy/0121-best-time-to-buy-and-sell-stock/solution-v2.py) | Python3 | `Easy` | 21 ms (93.4%) | 28.6 MB (77.3%) | 2026-10-11 20:40 UTC | 1 |
@@ -86,6 +86,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [v1](src/medium/0875-koko-eating-bananas/solution-v1.py) | Python3 | `Medium` | 255 ms (5.1%) | 20.8 MB (13.7%) | 2026-08-15 11:30 UTC | 0 |
 | 0877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [v1](src/medium/0877-stone-game/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.2 MB (68.4%) | 2026-08-24 19:27 UTC | 0 |
 | 0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [v1](src/medium/0921-minimum-add-to-make-parentheses-valid/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.3 MB (49.5%) | 2026-10-06 07:15 UTC | 0 |
+| 0994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [v1](src/medium/0994-rotting-oranges/solution-v1.py) | Python3 | `Medium` | 4 ms (35.4%) | 19.2 MB (79.5%) | 2026-10-16 16:54 UTC | 0 |
 | 0997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [v1](src/easy/0997-find-the-town-judge/solution-v1.c) | C | `Easy` | 0 ms (100.0%) | 19.6 MB (100.0%) | 2025-06-13 19:14 UTC | 0 |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [v1](src/easy/1200-minimum-absolute-difference/solution-v1.py) | Python | `Easy` | 63 ms (91.7%) | 21.6 MB (44.9%) | 2026-01-26 11:15 UTC | 0 |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | [v1](src/medium/1461-check-if-a-string-contains-all-binary-codes-of-size-k/solution-v1.py) | Python | `Medium` | 229 ms (94.6%) | 63.2 MB (67.9%) | 2026-02-23 12:44 UTC | 0 |
@@ -96,6 +97,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 2144 | [Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [v1](src/easy/2144-minimum-cost-of-buying-candies-with-discount/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.2 MB (88.5%) | 2026-06-01 09:45 UTC | 0 |
 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | [v1](src/easy/2839-check-if-strings-can-be-made-equal-with-operations-i/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.2 MB (90.9%) | 2026-08-25 11:31 UTC | 0 |
 | 2840 | [Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/) | [v1](src/medium/2840-check-if-strings-can-be-made-equal-with-operations-ii/solution-v1.py) | Python3 | `Medium` | 48 ms (92.1%) | 20.1 MB (78.7%) | 2026-08-25 12:00 UTC | 0 |
+| 3015 | [Count the Number of Houses at a Certain Distance I](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i/) | [v1](src/medium/3015-count-the-number-of-houses-at-a-certain-distance-i/solution-v1.py) | Python3 | `Medium` | 644 ms (21.6%) | 19.2 MB (94.1%) | 2026-10-15 16:16 UTC | 0 |
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | [v1](src/easy/3069-distribute-elements-into-two-arrays-i/solution-v1.py) | Python3 | `Easy` | 1 ms (27.9%) | 19.2 MB (64.5%) | 2026-08-20 14:24 UTC | 0 |
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | [v1](src/medium/3121-count-the-number-of-special-characters-ii/solution-v1.py) | Python3 | `Medium` | 492 ms (8.9%) | 21.7 MB (10.7%) | 2026-05-27 17:31 UTC | 0 |
 | 3296 | [Minimum Number of Seconds to Make Mountain Height Zero](https://leetcode.com/problems/minimum-number-of-seconds-to-make-mountain-height-zero/) | [v1](src/medium/3296-minimum-number-of-seconds-to-make-mountain-height-zero/solution-v1.py) | Python | `Medium` | 903 ms (45.5%) | 17.2 MB (3.0%) | 2026-03-13 08:41 UTC | 0 |

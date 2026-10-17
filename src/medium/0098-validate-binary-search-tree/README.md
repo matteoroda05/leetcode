@@ -1,7 +1,7 @@
 # [0098] Validate Binary Search Tree
 
 - **Difficulty:** Medium
-- **Latest accepted:** 2026-10-15 13:24 UTC
+- **Latest accepted:** 2026-10-16 18:51 UTC
 - **Resubmissions (>48 hours):** 0
 
 ### Submission history
@@ -11,7 +11,7 @@ A submission more than 48 hours after that window began starts a new version.
 
 | Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| v1 | 2026-10-15 13:24 UTC | Python3 | 1 ms (45.9%) | 21 MB (22.9%) | [Code](solution-v1.py) |
+| v1 | 2026-10-16 18:51 UTC | Python3 | 0 ms (100.0%) | 20.9 MB (47.2%) | [Code](solution-v1.py) |
 
 ---
 

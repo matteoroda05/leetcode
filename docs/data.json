@@ -576,26 +576,26 @@
       "versions": [
         {
           "version": 1,
-          "submission_id": "2173038183",
-          "timestamp": 1792070684,
-          "date": "2026-10-15 13:24 UTC",
+          "submission_id": "2174102510",
+          "timestamp": 1792176701,
+          "date": "2026-10-16 18:51 UTC",
           "lang": "python3",
           "ext": "py",
-          "runtime": "1 ms",
-          "runtime_pct": "45.9%",
-          "memory": "21 MB",
-          "memory_pct": "22.9%",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "20.9 MB",
+          "memory_pct": "47.2%",
           "path": "src/medium/0098-validate-binary-search-tree/solution-v1.py"
         }
       ],
       "lang": "python3",
       "ext": "py",
-      "runtime": "1 ms",
-      "runtime_pct": "45.9%",
-      "memory": "21 MB",
-      "memory_pct": "22.9%",
-      "date": "2026-10-15 13:24 UTC",
-      "timestamp": 1792070684
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "20.9 MB",
+      "memory_pct": "47.2%",
+      "date": "2026-10-16 18:51 UTC",
+      "timestamp": 1792176701
     },
     {
       "qid": "0104",
@@ -1104,6 +1104,36 @@
       "timestamp": 1791270946
     },
     {
+      "qid": "0994",
+      "title": "Rotting Oranges",
+      "slug": "rotting-oranges",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2174006490",
+          "timestamp": 1792169654,
+          "date": "2026-10-16 16:54 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "4 ms",
+          "runtime_pct": "35.4%",
+          "memory": "19.2 MB",
+          "memory_pct": "79.5%",
+          "path": "src/medium/0994-rotting-oranges/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "4 ms",
+      "runtime_pct": "35.4%",
+      "memory": "19.2 MB",
+      "memory_pct": "79.5%",
+      "date": "2026-10-16 16:54 UTC",
+      "timestamp": 1792169654
+    },
+    {
       "qid": "0997",
       "title": "Find the Town Judge",
       "slug": "find-the-town-judge",
@@ -1402,6 +1432,36 @@
       "memory_pct": "78.7%",
       "date": "2026-08-25 12:00 UTC",
       "timestamp": 1787659200
+    },
+    {
+      "qid": "3015",
+      "title": "Count the Number of Houses at a Certain Distance I",
+      "slug": "count-the-number-of-houses-at-a-certain-distance-i",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2173176662",
+          "timestamp": 1792080984,
+          "date": "2026-10-15 16:16 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "644 ms",
+          "runtime_pct": "21.6%",
+          "memory": "19.2 MB",
+          "memory_pct": "94.1%",
+          "path": "src/medium/3015-count-the-number-of-houses-at-a-certain-distance-i/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "644 ms",
+      "runtime_pct": "21.6%",
+      "memory": "19.2 MB",
+      "memory_pct": "94.1%",
+      "date": "2026-10-15 16:16 UTC",
+      "timestamp": 1792080984
     },
     {
       "qid": "3069",

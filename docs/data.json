@@ -568,6 +568,36 @@
       "timestamp": 1790364730
     },
     {
+      "qid": "0094",
+      "title": "Binary Tree Inorder Traversal",
+      "slug": "binary-tree-inorder-traversal",
+      "difficulty": "Easy",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2174640863",
+          "timestamp": 1792248274,
+          "date": "2026-10-17 14:44 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.3 MB",
+          "memory_pct": "26.3%",
+          "path": "src/easy/0094-binary-tree-inorder-traversal/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.3 MB",
+      "memory_pct": "26.3%",
+      "date": "2026-10-17 14:44 UTC",
+      "timestamp": 1792248274
+    },
+    {
       "qid": "0098",
       "title": "Validate Binary Search Tree",
       "slug": "validate-binary-search-tree",
@@ -791,6 +821,36 @@
       "timestamp": 1790261738
     },
     {
+      "qid": "0199",
+      "title": "Binary Tree Right Side View",
+      "slug": "binary-tree-right-side-view",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2176898757",
+          "timestamp": 1792485360,
+          "date": "2026-10-20 08:36 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "67.5%",
+          "path": "src/medium/0199-binary-tree-right-side-view/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.2 MB",
+      "memory_pct": "67.5%",
+      "date": "2026-10-20 08:36 UTC",
+      "timestamp": 1792485360
+    },
+    {
       "qid": "0200",
       "title": "Number of Islands",
       "slug": "number-of-islands",
@@ -862,6 +922,36 @@
       "memory_pct": "25.9%",
       "date": "2026-09-26 21:41 UTC",
       "timestamp": 1790458865
+    },
+    {
+      "qid": "0226",
+      "title": "Invert Binary Tree",
+      "slug": "invert-binary-tree",
+      "difficulty": "Easy",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2180294012",
+          "timestamp": 1792832708,
+          "date": "2026-10-24 09:05 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.1 MB",
+          "memory_pct": "87.6%",
+          "path": "src/easy/0226-invert-binary-tree/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.1 MB",
+      "memory_pct": "87.6%",
+      "date": "2026-10-24 09:05 UTC",
+      "timestamp": 1792832708
     },
     {
       "qid": "0274",
@@ -984,6 +1074,36 @@
       "timestamp": 1791147733
     },
     {
+      "qid": "0704",
+      "title": "Binary Search",
+      "slug": "binary-search",
+      "difficulty": "Easy",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2180359100",
+          "timestamp": 1792839175,
+          "date": "2026-10-24 10:52 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "20.4 MB",
+          "memory_pct": "93.4%",
+          "path": "src/easy/0704-binary-search/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "20.4 MB",
+      "memory_pct": "93.4%",
+      "date": "2026-10-24 10:52 UTC",
+      "timestamp": 1792839175
+    },
+    {
       "qid": "0856",
       "title": "Score of Parentheses",
       "slug": "score-of-parentheses",
@@ -1102,6 +1222,36 @@
       "memory_pct": "49.5%",
       "date": "2026-10-06 07:15 UTC",
       "timestamp": 1791270946
+    },
+    {
+      "qid": "0951",
+      "title": "Flip Equivalent Binary Trees",
+      "slug": "flip-equivalent-binary-trees",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2180298612",
+          "timestamp": 1792833183,
+          "date": "2026-10-24 09:13 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.2 MB",
+          "memory_pct": "72.9%",
+          "path": "src/medium/0951-flip-equivalent-binary-trees/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.2 MB",
+      "memory_pct": "72.9%",
+      "date": "2026-10-24 09:13 UTC",
+      "timestamp": 1792833183
     },
     {
       "qid": "0994",

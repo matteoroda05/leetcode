@@ -1,8 +1,8 @@
 # [0033] Search in Rotated Sorted Array
 
 - **Difficulty:** Medium
-- **Latest accepted:** 2026-09-25 16:20 UTC
-- **Resubmissions (>48 hours):** 0
+- **Latest accepted:** 2026-10-24 18:14 UTC
+- **Resubmissions (>48 hours):** 1
 
 ### Submission history
 
@@ -12,6 +12,7 @@ A submission more than 48 hours after that window began starts a new version.
 | Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | v1 | 2026-09-25 16:20 UTC | Python3 | 0 ms (100.0%) | 19.8 MB (11.1%) | [Code](solution-v1.py) |
+| v2 | 2026-10-24 18:14 UTC | Python3 | 0 ms (100.0%) | 19.4 MB (39.5%) | [Code](solution-v2.py) |
 
 ---
 

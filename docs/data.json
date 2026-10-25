@@ -422,7 +422,7 @@
       "title": "Search in Rotated Sorted Array",
       "slug": "search-in-rotated-sorted-array",
       "difficulty": "Medium",
-      "resubmissions": 0,
+      "resubmissions": 1,
       "versions": [
         {
           "version": 1,
@@ -436,16 +436,29 @@
           "memory": "19.8 MB",
           "memory_pct": "11.1%",
           "path": "src/medium/0033-search-in-rotated-sorted-array/solution-v1.py"
+        },
+        {
+          "version": 2,
+          "submission_id": "2180768196",
+          "timestamp": 1792865689,
+          "date": "2026-10-24 18:14 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.4 MB",
+          "memory_pct": "39.5%",
+          "path": "src/medium/0033-search-in-rotated-sorted-array/solution-v2.py"
         }
       ],
       "lang": "python3",
       "ext": "py",
       "runtime": "0 ms",
       "runtime_pct": "100.0%",
-      "memory": "19.8 MB",
-      "memory_pct": "11.1%",
-      "date": "2026-09-25 16:20 UTC",
-      "timestamp": 1790353214
+      "memory": "19.4 MB",
+      "memory_pct": "39.5%",
+      "date": "2026-10-24 18:14 UTC",
+      "timestamp": 1792865689
     },
     {
       "qid": "0042",
@@ -506,6 +519,36 @@
       "memory_pct": "30.2%",
       "date": "2026-09-24 08:03 UTC",
       "timestamp": 1790236986
+    },
+    {
+      "qid": "0069",
+      "title": "Sqrt(x)",
+      "slug": "sqrtx",
+      "difficulty": "Easy",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2180722734",
+          "timestamp": 1792862655,
+          "date": "2026-10-24 17:24 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "5 ms",
+          "runtime_pct": "40.6%",
+          "memory": "19.2 MB",
+          "memory_pct": "51.2%",
+          "path": "src/easy/0069-sqrtx/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "5 ms",
+      "runtime_pct": "40.6%",
+      "memory": "19.2 MB",
+      "memory_pct": "51.2%",
+      "date": "2026-10-24 17:24 UTC",
+      "timestamp": 1792862655
     },
     {
       "qid": "0070",
@@ -982,6 +1025,36 @@
       "memory_pct": "6.5%",
       "date": "2026-10-09 14:37 UTC",
       "timestamp": 1791556653
+    },
+    {
+      "qid": "0374",
+      "title": "Guess Number Higher or Lower",
+      "slug": "guess-number-higher-or-lower",
+      "difficulty": "Easy",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2180737392",
+          "timestamp": 1792863639,
+          "date": "2026-10-24 17:40 UTC",
+          "lang": "c",
+          "ext": "c",
+          "runtime": "1 ms",
+          "runtime_pct": "54.5%",
+          "memory": "8.4 MB",
+          "memory_pct": "81.2%",
+          "path": "src/easy/0374-guess-number-higher-or-lower/solution-v1.c"
+        }
+      ],
+      "lang": "c",
+      "ext": "c",
+      "runtime": "1 ms",
+      "runtime_pct": "54.5%",
+      "memory": "8.4 MB",
+      "memory_pct": "81.2%",
+      "date": "2026-10-24 17:40 UTC",
+      "timestamp": 1792863639
     },
     {
       "qid": "0380",

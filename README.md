@@ -24,11 +24,11 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 <div align="center">
 
-<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B57%2C%202%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2264%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B58%2C%203%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2266%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
 
 <br/>
 
-`Python3: 57 (89.1%)` `Python: 4 (6.2%)` `C: 2 (3.1%)` `C++: 1 (1.6%)`
+`Python3: 58 (87.9%)` `Python: 4 (6.1%)` `C: 3 (4.5%)` `C++: 1 (1.5%)`
 
 </div>
 
@@ -38,9 +38,9 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏆 Total Solved |
 | :---: | :---: | :---: | :---: |
-| **25** | **36** | **3** | **64** |
+| **27** | **36** | **3** | **66** |
 
-**4 problems revisited more than 48 hours later.** A resubmission is a new
+**5 problems revisited more than 48 hours later.** A resubmission is a new
 48-hour version window; submissions within the same window update that version.
 
 ---
@@ -64,9 +64,10 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [v1](src/easy/0020-valid-parentheses/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.3 MB (24.8%) | 2026-09-25 21:40 UTC | 0 |
 | 0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [v1](src/medium/0022-generate-parentheses/solution-v1.py) | Python3 | `Medium` | 3 ms (30.5%) | 19.4 MB (37.0%) | 2026-10-02 11:18 UTC | 0 |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [v1](src/easy/0026-remove-duplicates-from-sorted-array/solution-v1.py) | Python3 | `Easy` | 1 ms (57.1%) | 20.5 MB (80.1%) | 2026-09-25 19:16 UTC | 0 |
-| 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [v1](src/medium/0033-search-in-rotated-sorted-array/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.8 MB (11.1%) | 2026-09-25 16:20 UTC | 0 |
+| 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [v2](src/medium/0033-search-in-rotated-sorted-array/solution-v2.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.4 MB (39.5%) | 2026-10-24 18:14 UTC | 1 |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [v1](src/hard/0042-trapping-rain-water/solution-v1.py) | Python3 | `Hard` | 7 ms (72.4%) | 21.2 MB (12.0%) | 2026-08-16 11:01 UTC | 0 |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [v1](src/medium/0056-merge-intervals/solution-v1.py) | Python3 | `Medium` | 11 ms (26.0%) | 23.2 MB (30.2%) | 2026-09-24 08:03 UTC | 0 |
+| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [v1](src/easy/0069-sqrtx/solution-v1.py) | Python3 | `Easy` | 5 ms (40.6%) | 19.2 MB (51.2%) | 2026-10-24 17:24 UTC | 0 |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [v1](src/easy/0070-climbing-stairs/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.5 MB (18.5%) | 2026-09-02 14:12 UTC | 0 |
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [v1](src/medium/0080-remove-duplicates-from-sorted-array-ii/solution-v1.py) | Python3 | `Medium` | 6 ms (86.7%) | 21 MB (98.2%) | 2026-09-25 19:32 UTC | 0 |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [v1](src/easy/0094-binary-tree-inorder-traversal/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.3 MB (26.3%) | 2026-10-17 14:44 UTC | 0 |
@@ -82,6 +83,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [v1](src/medium/0207-course-schedule/solution-v1.py) | Python3 | `Medium` | 7 ms (44.3%) | 21.3 MB (25.9%) | 2026-09-26 21:41 UTC | 0 |
 | 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [v1](src/easy/0226-invert-binary-tree/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.1 MB (87.6%) | 2026-10-24 09:05 UTC | 0 |
 | 0274 | [H-Index](https://leetcode.com/problems/h-index/) | [v1](src/medium/0274-h-index/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.7 MB (6.5%) | 2026-10-09 14:37 UTC | 0 |
+| 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [v1](src/easy/0374-guess-number-higher-or-lower/solution-v1.c) | C | `Easy` | 1 ms (54.5%) | 8.4 MB (81.2%) | 2026-10-24 17:40 UTC | 0 |
 | 0380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [v1](src/medium/0380-insert-delete-getrandom-o1/solution-v1.py) | Python3 | `Medium` | 84 ms (89.6%) | 57 MB (45.3%) | 2026-10-10 20:21 UTC | 0 |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [v1](src/medium/0560-subarray-sum-equals-k/solution-v1.py) | Python3 | `Medium` | 35 ms (48.1%) | 21.9 MB (58.2%) | 2026-10-14 15:39 UTC | 0 |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [v1](src/medium/0678-valid-parenthesis-string/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.1 MB (90.0%) | 2026-10-04 21:02 UTC | 0 |

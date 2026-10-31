@@ -24,11 +24,11 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 <div align="center">
 
-<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B58%2C%203%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2266%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Python3%22%2C%20%22C%22%2C%20%22Python%22%2C%20%22C%2B%2B%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B65%2C%203%2C%204%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233572A5%22%2C%20%22%23F1E05A%22%2C%20%22%234F5D95%22%2C%20%22%2300ADD8%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22bottom%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2012%7D%7D%2C%20%22doughnutlabel%22%3A%20%7B%22labels%22%3A%20%5B%7B%22text%22%3A%20%2273%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2020%7D%7D%2C%20%7B%22text%22%3A%20%22Solved%22%7D%5D%7D%7D%7D%7D&w=300&h=260&bkg=%2318181b" alt="Language Breakdown" width="280" />
 
 <br/>
 
-`Python3: 58 (87.9%)` `Python: 4 (6.1%)` `C: 3 (4.5%)` `C++: 1 (1.5%)`
+`Python3: 65 (89.0%)` `Python: 4 (5.5%)` `C: 3 (4.1%)` `C++: 1 (1.4%)`
 
 </div>
 
@@ -38,9 +38,9 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 
 | 🟢 Easy | 🟡 Medium | 🔴 Hard | 🏆 Total Solved |
 | :---: | :---: | :---: | :---: |
-| **27** | **36** | **3** | **66** |
+| **27** | **42** | **4** | **73** |
 
-**5 problems revisited more than 48 hours later.** A resubmission is a new
+**7 problems revisited more than 48 hours later.** A resubmission is a new
 48-hour version window; submissions within the same window update that version.
 
 ---
@@ -66,7 +66,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [v1](src/easy/0026-remove-duplicates-from-sorted-array/solution-v1.py) | Python3 | `Easy` | 1 ms (57.1%) | 20.5 MB (80.1%) | 2026-09-25 19:16 UTC | 0 |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [v2](src/medium/0033-search-in-rotated-sorted-array/solution-v2.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.4 MB (39.5%) | 2026-10-24 18:14 UTC | 1 |
 | 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [v1](src/hard/0042-trapping-rain-water/solution-v1.py) | Python3 | `Hard` | 7 ms (72.4%) | 21.2 MB (12.0%) | 2026-08-16 11:01 UTC | 0 |
-| 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [v1](src/medium/0056-merge-intervals/solution-v1.py) | Python3 | `Medium` | 11 ms (26.0%) | 23.2 MB (30.2%) | 2026-09-24 08:03 UTC | 0 |
+| 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [v2](src/medium/0056-merge-intervals/solution-v2.py) | Python3 | `Medium` | 10 ms (28.6%) | 22.6 MB (63.2%) | 2026-10-29 11:21 UTC | 1 |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [v1](src/easy/0069-sqrtx/solution-v1.py) | Python3 | `Easy` | 5 ms (40.6%) | 19.2 MB (51.2%) | 2026-10-24 17:24 UTC | 0 |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [v1](src/easy/0070-climbing-stairs/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.5 MB (18.5%) | 2026-09-02 14:12 UTC | 0 |
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [v1](src/medium/0080-remove-duplicates-from-sorted-array-ii/solution-v1.py) | Python3 | `Medium` | 6 ms (86.7%) | 21 MB (98.2%) | 2026-09-25 19:32 UTC | 0 |
@@ -78,16 +78,22 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [v1](src/medium/0122-best-time-to-buy-and-sell-stock-ii/solution-v1.py) | Python3 | `Medium` | 3 ms (60.4%) | 20.1 MB (98.0%) | 2026-09-24 10:42 UTC | 0 |
 | 0123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [v1](src/hard/0123-best-time-to-buy-and-sell-stock-iii/solution-v1.py) | Python3 | `Hard` | 120 ms (52.3%) | 31.2 MB (41.8%) | 2026-09-24 14:05 UTC | 0 |
 | 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [v1](src/medium/0138-copy-list-with-random-pointer/solution-v1.py) | Python3 | `Medium` | 49 ms (46.8%) | 19.9 MB (98.5%) | 2026-09-24 14:55 UTC | 0 |
+| 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [v1](src/medium/0151-reverse-words-in-a-string/solution-v1.py) | Python3 | `Medium` | 90 ms (6.4%) | 19.5 MB (10.3%) | 2026-10-27 11:39 UTC | 0 |
 | 0199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [v1](src/medium/0199-binary-tree-right-side-view/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.2 MB (67.5%) | 2026-10-20 08:36 UTC | 0 |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [v2](src/medium/0200-number-of-islands/solution-v2.py) | Python3 | `Medium` | 230 ms (87.6%) | 21.5 MB (92.5%) | 2026-09-25 16:46 UTC | 1 |
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [v1](src/medium/0207-course-schedule/solution-v1.py) | Python3 | `Medium` | 7 ms (44.3%) | 21.3 MB (25.9%) | 2026-09-26 21:41 UTC | 0 |
 | 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [v1](src/easy/0226-invert-binary-tree/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.1 MB (87.6%) | 2026-10-24 09:05 UTC | 0 |
+| 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [v1](src/medium/0230-kth-smallest-element-in-a-bst/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 22.3 MB (25.3%) | 2026-10-26 09:58 UTC | 0 |
+| 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [v1](src/medium/0238-product-of-array-except-self/solution-v1.py) | Python3 | `Medium` | 29 ms (35.6%) | 25.2 MB (82.9%) | 2026-10-29 11:13 UTC | 0 |
 | 0274 | [H-Index](https://leetcode.com/problems/h-index/) | [v1](src/medium/0274-h-index/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.7 MB (6.5%) | 2026-10-09 14:37 UTC | 0 |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [v1](src/easy/0374-guess-number-higher-or-lower/solution-v1.c) | C | `Easy` | 1 ms (54.5%) | 8.4 MB (81.2%) | 2026-10-24 17:40 UTC | 0 |
 | 0380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [v1](src/medium/0380-insert-delete-getrandom-o1/solution-v1.py) | Python3 | `Medium` | 84 ms (89.6%) | 57 MB (45.3%) | 2026-10-10 20:21 UTC | 0 |
-| 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [v1](src/medium/0560-subarray-sum-equals-k/solution-v1.py) | Python3 | `Medium` | 35 ms (48.1%) | 21.9 MB (58.2%) | 2026-10-14 15:39 UTC | 0 |
+| 0399 | [Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [v1](src/medium/0399-evaluate-division/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.3 MB (88.1%) | 2026-10-30 17:58 UTC | 0 |
+| 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [v2](src/medium/0560-subarray-sum-equals-k/solution-v2.py) | Python3 | `Medium` | 36 ms (36.7%) | 21.5 MB (97.2%) | 2026-10-29 11:01 UTC | 1 |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [v1](src/medium/0678-valid-parenthesis-string/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.1 MB (90.0%) | 2026-10-04 21:02 UTC | 0 |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [v1](src/easy/0704-binary-search/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 20.4 MB (93.4%) | 2026-10-24 10:52 UTC | 0 |
+| 0768 | [Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) | [v1](src/hard/0768-max-chunks-to-make-sorted-ii/solution-v1.py) | Python3 | `Hard` | 4 ms (49.6%) | 19.3 MB (92.4%) | 2026-10-28 14:29 UTC | 0 |
+| 0769 | [Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) | [v1](src/medium/0769-max-chunks-to-make-sorted/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.1 MB (92.8%) | 2026-10-28 13:37 UTC | 0 |
 | 0856 | [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) | [v1](src/medium/0856-score-of-parentheses/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.2 MB (84.4%) | 2026-10-05 21:03 UTC | 0 |
 | 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [v1](src/medium/0875-koko-eating-bananas/solution-v1.py) | Python3 | `Medium` | 255 ms (5.1%) | 20.8 MB (13.7%) | 2026-08-15 11:30 UTC | 0 |
 | 0877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [v1](src/medium/0877-stone-game/solution-v1.py) | Python3 | `Medium` | 0 ms (100.0%) | 19.2 MB (68.4%) | 2026-08-24 19:27 UTC | 0 |
@@ -117,6 +123,7 @@ Automated archive tracking algorithm practice, solutions, and benchmarks.
 | 3751 | [Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [v1](src/medium/3751-total-waviness-of-numbers-in-range-i/solution-v1.py) | Python3 | `Medium` | 328 ms (40.0%) | 19.3 MB (39.3%) | 2026-06-04 14:52 UTC | 0 |
 | 3875 | [Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | [v1](src/easy/3875-construct-uniform-parity-array-i/solution-v1.py) | Python3 | `Easy` | 0 ms (100.0%) | 19.2 MB (86.7%) | 2026-09-02 14:28 UTC | 0 |
 | 3876 | [Construct Uniform Parity Array II](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [v1](src/medium/3876-construct-uniform-parity-array-ii/solution-v1.py) | Python3 | `Medium` | 66 ms (38.6%) | 35 MB (91.8%) | 2026-09-03 10:22 UTC | 0 |
+| 3882 | [Minimum XOR Path in a Grid](https://leetcode.com/problems/minimum-xor-path-in-a-grid/) | [v1](src/medium/3882-minimum-xor-path-in-a-grid/solution-v1.py) | Python3 | `Medium` | 9225 ms (5.0%) | 165.3 MB (5.0%) | 2026-10-28 15:53 UTC | 0 |
 
 ---
 

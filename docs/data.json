@@ -495,7 +495,7 @@
       "title": "Merge Intervals",
       "slug": "merge-intervals",
       "difficulty": "Medium",
-      "resubmissions": 0,
+      "resubmissions": 1,
       "versions": [
         {
           "version": 1,
@@ -505,20 +505,33 @@
           "lang": "python3",
           "ext": "py",
           "runtime": "11 ms",
-          "runtime_pct": "26.0%",
+          "runtime_pct": "23.0%",
           "memory": "23.2 MB",
-          "memory_pct": "30.2%",
+          "memory_pct": "33.1%",
           "path": "src/medium/0056-merge-intervals/solution-v1.py"
+        },
+        {
+          "version": 2,
+          "submission_id": "2184661886",
+          "timestamp": 1793272917,
+          "date": "2026-10-29 11:21 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "10 ms",
+          "runtime_pct": "28.6%",
+          "memory": "22.6 MB",
+          "memory_pct": "63.2%",
+          "path": "src/medium/0056-merge-intervals/solution-v2.py"
         }
       ],
       "lang": "python3",
       "ext": "py",
-      "runtime": "11 ms",
-      "runtime_pct": "26.0%",
-      "memory": "23.2 MB",
-      "memory_pct": "30.2%",
-      "date": "2026-09-24 08:03 UTC",
-      "timestamp": 1790236986
+      "runtime": "10 ms",
+      "runtime_pct": "28.6%",
+      "memory": "22.6 MB",
+      "memory_pct": "63.2%",
+      "date": "2026-10-29 11:21 UTC",
+      "timestamp": 1793272917
     },
     {
       "qid": "0069",
@@ -864,6 +877,36 @@
       "timestamp": 1790261738
     },
     {
+      "qid": "0151",
+      "title": "Reverse Words in a String",
+      "slug": "reverse-words-in-a-string",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2183034840",
+          "timestamp": 1793101186,
+          "date": "2026-10-27 11:39 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "90 ms",
+          "runtime_pct": "6.4%",
+          "memory": "19.5 MB",
+          "memory_pct": "10.3%",
+          "path": "src/medium/0151-reverse-words-in-a-string/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "90 ms",
+      "runtime_pct": "6.4%",
+      "memory": "19.5 MB",
+      "memory_pct": "10.3%",
+      "date": "2026-10-27 11:39 UTC",
+      "timestamp": 1793101186
+    },
+    {
       "qid": "0199",
       "title": "Binary Tree Right Side View",
       "slug": "binary-tree-right-side-view",
@@ -997,6 +1040,66 @@
       "timestamp": 1792832708
     },
     {
+      "qid": "0230",
+      "title": "Kth Smallest Element in a BST",
+      "slug": "kth-smallest-element-in-a-bst",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2182106467",
+          "timestamp": 1793008738,
+          "date": "2026-10-26 09:58 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "22.3 MB",
+          "memory_pct": "25.3%",
+          "path": "src/medium/0230-kth-smallest-element-in-a-bst/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "22.3 MB",
+      "memory_pct": "25.3%",
+      "date": "2026-10-26 09:58 UTC",
+      "timestamp": 1793008738
+    },
+    {
+      "qid": "0238",
+      "title": "Product of Array Except Self",
+      "slug": "product-of-array-except-self",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2184657515",
+          "timestamp": 1793272395,
+          "date": "2026-10-29 11:13 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "29 ms",
+          "runtime_pct": "35.6%",
+          "memory": "25.2 MB",
+          "memory_pct": "82.9%",
+          "path": "src/medium/0238-product-of-array-except-self/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "29 ms",
+      "runtime_pct": "35.6%",
+      "memory": "25.2 MB",
+      "memory_pct": "82.9%",
+      "date": "2026-10-29 11:13 UTC",
+      "timestamp": 1793272395
+    },
+    {
       "qid": "0274",
       "title": "H-Index",
       "slug": "h-index",
@@ -1087,11 +1190,41 @@
       "timestamp": 1791663707
     },
     {
+      "qid": "0399",
+      "title": "Evaluate Division",
+      "slug": "evaluate-division",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2185715917",
+          "timestamp": 1793383127,
+          "date": "2026-10-30 17:58 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.3 MB",
+          "memory_pct": "88.1%",
+          "path": "src/medium/0399-evaluate-division/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.3 MB",
+      "memory_pct": "88.1%",
+      "date": "2026-10-30 17:58 UTC",
+      "timestamp": 1793383127
+    },
+    {
       "qid": "0560",
       "title": "Subarray Sum Equals K",
       "slug": "subarray-sum-equals-k",
       "difficulty": "Medium",
-      "resubmissions": 0,
+      "resubmissions": 1,
       "versions": [
         {
           "version": 1,
@@ -1101,20 +1234,33 @@
           "lang": "python3",
           "ext": "py",
           "runtime": "35 ms",
-          "runtime_pct": "48.1%",
+          "runtime_pct": "47.0%",
           "memory": "21.9 MB",
-          "memory_pct": "58.2%",
+          "memory_pct": "53.6%",
           "path": "src/medium/0560-subarray-sum-equals-k/solution-v1.py"
+        },
+        {
+          "version": 2,
+          "submission_id": "2184651392",
+          "timestamp": 1793271686,
+          "date": "2026-10-29 11:01 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "36 ms",
+          "runtime_pct": "36.7%",
+          "memory": "21.5 MB",
+          "memory_pct": "97.2%",
+          "path": "src/medium/0560-subarray-sum-equals-k/solution-v2.py"
         }
       ],
       "lang": "python3",
       "ext": "py",
-      "runtime": "35 ms",
-      "runtime_pct": "48.1%",
-      "memory": "21.9 MB",
-      "memory_pct": "58.2%",
-      "date": "2026-10-14 15:39 UTC",
-      "timestamp": 1791992363
+      "runtime": "36 ms",
+      "runtime_pct": "36.7%",
+      "memory": "21.5 MB",
+      "memory_pct": "97.2%",
+      "date": "2026-10-29 11:01 UTC",
+      "timestamp": 1793271686
     },
     {
       "qid": "0678",
@@ -1175,6 +1321,66 @@
       "memory_pct": "93.4%",
       "date": "2026-10-24 10:52 UTC",
       "timestamp": 1792839175
+    },
+    {
+      "qid": "0768",
+      "title": "Max Chunks To Make Sorted II",
+      "slug": "max-chunks-to-make-sorted-ii",
+      "difficulty": "Hard",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2183979766",
+          "timestamp": 1793197764,
+          "date": "2026-10-28 14:29 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "4 ms",
+          "runtime_pct": "49.6%",
+          "memory": "19.3 MB",
+          "memory_pct": "92.4%",
+          "path": "src/hard/0768-max-chunks-to-make-sorted-ii/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "4 ms",
+      "runtime_pct": "49.6%",
+      "memory": "19.3 MB",
+      "memory_pct": "92.4%",
+      "date": "2026-10-28 14:29 UTC",
+      "timestamp": 1793197764
+    },
+    {
+      "qid": "0769",
+      "title": "Max Chunks To Make Sorted",
+      "slug": "max-chunks-to-make-sorted",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2183938345",
+          "timestamp": 1793194627,
+          "date": "2026-10-28 13:37 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "0 ms",
+          "runtime_pct": "100.0%",
+          "memory": "19.1 MB",
+          "memory_pct": "92.8%",
+          "path": "src/medium/0769-max-chunks-to-make-sorted/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "0 ms",
+      "runtime_pct": "100.0%",
+      "memory": "19.1 MB",
+      "memory_pct": "92.8%",
+      "date": "2026-10-28 13:37 UTC",
+      "timestamp": 1793194627
     },
     {
       "qid": "0856",
@@ -2045,6 +2251,36 @@
       "memory_pct": "91.8%",
       "date": "2026-09-03 10:22 UTC",
       "timestamp": 1788430961
+    },
+    {
+      "qid": "3882",
+      "title": "Minimum XOR Path in a Grid",
+      "slug": "minimum-xor-path-in-a-grid",
+      "difficulty": "Medium",
+      "resubmissions": 0,
+      "versions": [
+        {
+          "version": 1,
+          "submission_id": "2184044656",
+          "timestamp": 1793202825,
+          "date": "2026-10-28 15:53 UTC",
+          "lang": "python3",
+          "ext": "py",
+          "runtime": "9225 ms",
+          "runtime_pct": "5.0%",
+          "memory": "165.3 MB",
+          "memory_pct": "5.0%",
+          "path": "src/medium/3882-minimum-xor-path-in-a-grid/solution-v1.py"
+        }
+      ],
+      "lang": "python3",
+      "ext": "py",
+      "runtime": "9225 ms",
+      "runtime_pct": "5.0%",
+      "memory": "165.3 MB",
+      "memory_pct": "5.0%",
+      "date": "2026-10-28 15:53 UTC",
+      "timestamp": 1793202825
     }
   ]
 }

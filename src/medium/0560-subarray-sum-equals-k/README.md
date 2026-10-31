@@ -1,8 +1,8 @@
 # [0560] Subarray Sum Equals K
 
 - **Difficulty:** Medium
-- **Latest accepted:** 2026-10-14 15:39 UTC
-- **Resubmissions (>48 hours):** 0
+- **Latest accepted:** 2026-10-29 11:01 UTC
+- **Resubmissions (>48 hours):** 1
 
 ### Submission history
 
@@ -11,7 +11,8 @@ A submission more than 48 hours after that window began starts a new version.
 
 | Version | Accepted (UTC) | Language | Runtime | Memory | Solution |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| v1 | 2026-10-14 15:39 UTC | Python3 | 35 ms (48.1%) | 21.9 MB (58.2%) | [Code](solution-v1.py) |
+| v1 | 2026-10-14 15:39 UTC | Python3 | 35 ms (47.0%) | 21.9 MB (53.6%) | [Code](solution-v1.py) |
+| v2 | 2026-10-29 11:01 UTC | Python3 | 36 ms (36.7%) | 21.5 MB (97.2%) | [Code](solution-v2.py) |
 
 ---
 
